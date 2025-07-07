@@ -56,5 +56,5 @@
 ---
 
 <p align="center">
-  💚 Building tech with intention, curiosity, and a healthy dose of dark mode.
+  Slade The Deciever
 </p>
