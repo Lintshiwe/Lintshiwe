@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/slade-logo.svg" width="120" alt="Slade The Deciever Logo" />
+</p>
+
 <h1 align="center">Hey there, I'm Lintshiwe 👨🏾‍💻</h1>
 <p align="center">
   Code Stylist · UI/UX Explorer · Terminal Enthusiast · Offensive Security Learner  
@@ -8,7 +12,7 @@
 
 ---
 
-### 🧠 About Me
+## 🧠 About Me
 
 - 💡 Passionate about intuitive UI/UX, responsive design, and real-time web functionality  
 - 🔒 Exploring local-first security, password encryption, and browser data integration  
@@ -18,15 +22,15 @@
 
 ---
 
-### 🔧 Tech Toolbox
+## 🔧 Tech Toolbox
 
-<div>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode" />
-</div>
+</p>
 
 ---
 
-### 🚀 Featured Projects
+## 🚀 Featured Projects
 
 | 🌟 Project | ⚡ Description | 🛠 Tech Stack |
 |-----------|----------------|--------------|
@@ -34,27 +38,33 @@
 | [CourseCampus](https://github.com/Lintshiwe/CourseCampus) | Web + terminal hybrid platform for student learning | Next.js 14 · Tailwind · Firebase |
 | [Salon](https://github.com/Lintshiwe/Salon) | Reusable UI + scalable frontend boilerplate | React · TypeScript · Tailwind CSS |
 | [JunksElectricalSolution](https://github.com/Lintshiwe/JunksElectricalSolution) | Real-time quote system for electrical services | Next.js · Firebase · Tailwind |
+| [Slade_MITM](https://github.com/Lintshiwe/Slade_MITM) | MITM proxy for ethical cybersecurity training | Python · mitmproxy |
 
 ---
 
-### 🧪 Currently Working On
+## 🧪 Currently Working On
 
-- 🎓 CLI-based education in the browser (Linux-style terminal)  
-- 💸 Premium & donation-based monetization systems  
-- 🧼 Design systems for faster UI deployment  
-- 🛠️ Documentation polish and branding across all repositories  
-
----
-
-### 🔗 Let’s Connect
-
-- 🌍 [My Portfolio](https://roaring-dodol-2761bc.netlify.app/)
-- 💼 [LinkedIn](https://linkedin.com/in/lintshiwe-ntoampi-5274122a3)
-- 🎵 [TikTok](https://www.tiktok.com/@deciever04?_t=ZM-8xWaeavT03Z&_r=1)
-- 🐦 [Twitter / X](https://x.com/lintshiwe?s=21)
+- 🎓 Linux-style browser terminals for education  
+- 💸 Monetization systems for premium learning tools  
+- 🧼 Fast-deploy UI design systems  
+- 🛠️ Branding + markdown docs for all repositories  
 
 ---
+
+## 🔗 Connect With Me
 
 <p align="center">
-  Slade The Deciever
+  <a href="https://linkedin.com/in/lintshiwe-ntoampi-5274122a3">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="32" alt="LinkedIn" />
+  </a>
+  <a href="https://www.tiktok.com/@deciever04?_t=ZM-8xWaeavT03Z&_r=1">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tiktok.svg" width="32" alt="TikTok" />
+  </a>
+  <a href="https://x.com/lintshiwe?s=21">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" width="32" alt="X/Twitter" />
+  </a>
 </p>
+
+---
+
+<p align="center"><em>Slade The Deciever ⚔️</em></p>
