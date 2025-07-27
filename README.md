@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/slade-logo.svg" width="120" alt="Slade The Deciever Logo" />
+  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/slade-logo.png"
+       width="140"
+       alt="Slade The Deceiver Logo"
+       style="border-radius: 12px; filter: drop-shadow(0 0 20px rgba(0,0,0,0.4));" />
 </p>
 
 <h1 align="center">Hey there, I'm Lintshiwe 👨🏾‍💻</h1>
@@ -13,17 +16,15 @@
 ---
 
 ## 🧠 About Me
-
 - 💡 Passionate about intuitive UI/UX, responsive design, and real-time web functionality  
 - 🔒 Exploring local-first security, password encryption, and browser data integration  
-- 💻 Devoted to designing scalable platforms with modular architecture (hello, `Salon`)  
+- 💻 Devoted to designing scalable platforms with modular architecture (`Salon`)  
 - 🧑🏾‍🏫 Creating tech-driven learning spaces like `CourseCampus` for digital skill empowerment  
 - 🐧 Always curious — currently experimenting with Linux terminal interfaces in the browser  
 
 ---
 
 ## 🔧 Tech Toolbox
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode" />
 </p>
@@ -32,7 +33,7 @@
 
 ## 🚀 Featured Projects
 
-| 🌟 Project | ⚡ Description | 🛠 Tech Stack |
+| 🌟 Project | ⚡ Description | 🛠️ Tech Stack |
 |-----------|----------------|--------------|
 | [PasswordManager](https://github.com/Lintshiwe/PasswordManager) | Local-first encrypted vault with smart browser detection | Python · Tkinter · Fernet · SQLite |
 | [CourseCampus](https://github.com/Lintshiwe/CourseCampus) | Web + terminal hybrid platform for student learning | Next.js 14 · Tailwind · Firebase |
@@ -43,28 +44,21 @@
 ---
 
 ## 🧪 Currently Working On
-
-- 🎓 Linux-style browser terminals for education  
-- 💸 Monetization systems for premium learning tools  
-- 🧼 Fast-deploy UI design systems  
-- 🛠️ Branding + markdown docs for all repositories  
+- 🎓 Linux-style browser terminals for education
 
 ---
 
-## 🔗 Connect With Me
-
 <p align="center">
-  <a href="https://linkedin.com/in/lintshiwe-ntoampi-5274122a3">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="32" alt="LinkedIn" />
-  </a>
-  <a href="https://www.tiktok.com/@deciever04?_t=ZM-8xWaeavT03Z&_r=1">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tiktok.svg" width="32" alt="TikTok" />
-  </a>
-  <a href="https://x.com/lintshiwe?s=21">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" width="32" alt="X/Twitter" />
-  </a>
+  <em>Minimal branding. Ethical code. Purpose-built tech.</em>
 </p>
 
 ---
 
-<p align="center"><em>Slade The Deciever ⚔️</em></p>
+## 🌐 Connect with Me
+
+<p align="center">
+  <a href="https://github.com/Lintshiwe" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="30" /></a>
+  <a href="https://twitter.com/YourHandle" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" width="30" /></a>
+  <a href="https://linkedin.com/in/YourProfile" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" /></a>
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" height="24" /></a>
+</p>
