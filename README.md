@@ -21,12 +21,14 @@
 - 💻 Devoted to designing scalable platforms with modular architecture (`Salon`)  
 - 🧑🏾‍🏫 Creating tech-driven learning spaces like `CourseCampus` for digital skill empowerment  
 - 🐧 Always curious — currently experimenting with Linux terminal interfaces in the browser  
+- ⚙️ Practicing DevOps automation with CI/CD pipelines, containerization, and infrastructure as code  
+- 🧵 Skilled in Red Hat System Administration — user management, SELinux, systemd, and secure networking  
 
 ---
 
 ## 🔧 Tech Toolbox
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode,docker,bash,ansible" />
 </p>
 
 ---
