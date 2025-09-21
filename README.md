@@ -1,205 +1,165 @@
-<div align="center">
+<div style="background: linear-gradient(135deg, rgba(0,188,212,0.1), rgba(255,255,255,0.05)); backdrop-filter: blur(20px); border-radius: 20px; padding: 20px; margin: 20px 0; box-shadow: 0 8px 32px rgba(31,38,135,0.37); border: 1px solid rgba(255,255,255,0.18);">
 
-<!-- Animated Liquid Glass Header with Floating Particles -->
-<div style="position: relative; background: linear-gradient(135deg, rgba(0,188,212,0.15) 0%, rgba(255,255,255,0.08) 25%, rgba(0,255,255,0.12) 50%, rgba(255,255,255,0.05) 75%, rgba(0,188,212,0.1) 100%); backdrop-filter: blur(25px); border-radius: 30px; padding: 40px; margin: 30px 0; box-shadow: 0 12px 40px rgba(31,38,135,0.4), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,188,212,0.2); border: 2px solid rgba(255,255,255,0.25); overflow: hidden; animation: liquidPulse 4s ease-in-out infinite;">
-
-<!-- Floating Electrolyte Particles -->
-<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; overflow: hidden;">
-  <div style="position: absolute; top: 20%; left: 10%; width: 6px; height: 6px; background: radial-gradient(circle, rgba(0,255,255,0.9), transparent); border-radius: 50%; animation: float1 6s ease-in-out infinite, sparkle 2s linear infinite;"></div>
-  <div style="position: absolute; top: 60%; left: 80%; width: 4px; height: 4px; background: radial-gradient(circle, rgba(255,255,255,0.8), transparent); border-radius: 50%; animation: float2 8s ease-in-out infinite, sparkle 1.5s linear infinite;"></div>
-  <div style="position: absolute; top: 30%; left: 70%; width: 8px; height: 8px; background: radial-gradient(circle, rgba(0,188,212,0.9), transparent); border-radius: 50%; animation: float3 7s ease-in-out infinite, sparkle 2.5s linear infinite;"></div>
-  <div style="position: absolute; top: 80%; left: 20%; width: 5px; height: 5px; background: radial-gradient(circle, rgba(255,255,255,0.7), transparent); border-radius: 50%; animation: float4 5s ease-in-out infinite, sparkle 1.8s linear infinite;"></div>
-  <div style="position: absolute; top: 15%; left: 60%; width: 7px; height: 7px; background: radial-gradient(circle, rgba(0,255,255,0.8), transparent); border-radius: 50%; animation: float1 9s ease-in-out infinite, sparkle 2.2s linear infinite;"></div>
-</div>
-
-<!-- Reflection Layer -->
-<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, transparent 40%, rgba(0,255,255,0.1) 60%, rgba(255,255,255,0.15) 100%); border-radius: 30px; animation: reflectionShift 8s linear infinite;"></div>
-
-<!-- Profile Image with Liquid Glass Effect -->
-<div style="position: relative; display: inline-block; margin-bottom: 20px;">
+<p align="center">
   <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/slade-logo.png"
-       width="160"
+       width="140"
        alt="Slade The Deceiver Logo"
-       style="border-radius: 25px; background: rgba(255,255,255,0.2); backdrop-filter: blur(15px); box-shadow: 0 12px 40px rgba(0,255,255,0.3), inset 0 2px 0 rgba(255,255,255,0.4); border: 2px solid rgba(255,255,255,0.3); animation: imageGlow 3s ease-in-out infinite alternate;" />
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, rgba(255,255,255,0.3) 0%, transparent 30%, rgba(0,255,255,0.2) 70%, rgba(255,255,255,0.2) 100%); border-radius: 25px; animation: reflectionSweep 4s linear infinite;"></div>
-</div>
-
-<h1 style="color: #00bcd4; text-shadow: 0 0 20px rgba(0,188,212,0.6), 0 0 40px rgba(0,255,255,0.4); font-size: 2.5em; margin: 20px 0; animation: textGlow 3s ease-in-out infinite alternate;">
-  Hey there, I'm Lintshiwe 👨🏾‍💻
-</h1>
-
-<p style="color: #ffffff; font-size: 1.3em; text-shadow: 0 2px 10px rgba(0,0,0,0.5); margin: 15px 0; background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 15px; padding: 15px 25px; border: 1px solid rgba(255,255,255,0.2); animation: subtlePulse 5s ease-in-out infinite;">
-  Code Stylist · UI/UX Explorer · Terminal Enthusiast · Offensive Security Learner
+       style="border-radius: 16px; filter: drop-shadow(0 0 20px rgba(0,255,255,0.3)); background: rgba(255,255,255,0.15); box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.18);" />
 </p>
 
-<p style="color: #e0e0e0; font-size: 1.1em; text-shadow: 0 2px 8px rgba(0,0,0,0.3); background: rgba(255,255,255,0.08); backdrop-filter: blur(8px); border-radius: 12px; padding: 12px 20px; border: 1px solid rgba(255,255,255,0.15); animation: subtlePulse 6s ease-in-out infinite;">
+<h1 align="center" style="color: #00bcd4; text-shadow: 0 0 10px rgba(0,188,212,0.5);">Hey there, I'm Lintshiwe 👨🏾‍💻</h1>
+<p align="center" style="color: #ffffff; font-size: 1.1em;">
+  Code Stylist · UI/UX Explorer · Terminal Enthusiast · Offensive Security Learner
+</p>
+<p align="center" style="color: #e0e0e0;">
   Building full-stack experiences that blend performance, creativity, and secure tech.
 </p>
 
-<style>
-@keyframes liquidPulse {
-  0%, 100% { 
-    box-shadow: 0 12px 40px rgba(31,38,135,0.4), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -2px 0 rgba(0,188,212,0.2);
-    transform: translateY(0px);
-  }
-  50% { 
-    box-shadow: 0 18px 60px rgba(31,38,135,0.6), inset 0 3px 0 rgba(255,255,255,0.4), inset 0 -3px 0 rgba(0,188,212,0.3);
-    transform: translateY(-5px);
-  }
-}
-
-@keyframes reflectionShift {
-  0% { background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, transparent 40%, rgba(0,255,255,0.1) 60%, rgba(255,255,255,0.15) 100%); }
-  25% { background: linear-gradient(225deg, rgba(0,255,255,0.15) 0%, transparent 30%, rgba(255,255,255,0.2) 70%, rgba(0,188,212,0.1) 100%); }
-  50% { background: linear-gradient(315deg, rgba(255,255,255,0.25) 0%, transparent 35%, rgba(0,255,255,0.15) 65%, rgba(255,255,255,0.1) 100%); }
-  75% { background: linear-gradient(45deg, rgba(0,188,212,0.2) 0%, transparent 40%, rgba(255,255,255,0.15) 60%, rgba(0,255,255,0.1) 100%); }
-  100% { background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, transparent 40%, rgba(0,255,255,0.1) 60%, rgba(255,255,255,0.15) 100%); }
-}
-
-@keyframes float1 {
-  0%, 100% { transform: translateY(0px) translateX(0px) scale(1); opacity: 0.7; }
-  25% { transform: translateY(-20px) translateX(10px) scale(1.2); opacity: 1; }
-  50% { transform: translateY(-40px) translateX(-15px) scale(0.8); opacity: 0.5; }
-  75% { transform: translateY(-20px) translateX(5px) scale(1.1); opacity: 0.9; }
-}
-
-@keyframes float2 {
-  0%, 100% { transform: translateY(0px) translateX(0px) scale(1); opacity: 0.8; }
-  33% { transform: translateY(-30px) translateX(-20px) scale(1.3); opacity: 0.6; }
-  66% { transform: translateY(-15px) translateX(25px) scale(0.9); opacity: 1; }
-}
-
-@keyframes float3 {
-  0%, 100% { transform: translateY(0px) translateX(0px) scale(1); opacity: 0.6; }
-  50% { transform: translateY(-35px) translateX(-10px) scale(1.4); opacity: 1; }
-}
-
-@keyframes float4 {
-  0%, 100% { transform: translateY(0px) translateX(0px) scale(1); opacity: 0.9; }
-  40% { transform: translateY(-25px) translateX(15px) scale(0.7); opacity: 0.4; }
-  80% { transform: translateY(-45px) translateX(-5px) scale(1.2); opacity: 0.8; }
-}
-
-@keyframes sparkle {
-  0%, 100% { box-shadow: 0 0 5px rgba(255,255,255,0.8), 0 0 10px rgba(0,255,255,0.6); }
-  50% { box-shadow: 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(0,255,255,0.9), 0 0 40px rgba(0,188,212,0.7); }
-}
-
-@keyframes imageGlow {
-  0% { box-shadow: 0 12px 40px rgba(0,255,255,0.3), inset 0 2px 0 rgba(255,255,255,0.4); }
-  100% { box-shadow: 0 18px 60px rgba(0,255,255,0.5), inset 0 3px 0 rgba(255,255,255,0.6); }
-}
-
-@keyframes textGlow {
-  0% { text-shadow: 0 0 20px rgba(0,188,212,0.6), 0 0 40px rgba(0,255,255,0.4); }
-  100% { text-shadow: 0 0 30px rgba(0,188,212,0.8), 0 0 60px rgba(0,255,255,0.6), 0 0 80px rgba(255,255,255,0.3); }
-}
-
-@keyframes reflectionSweep {
-  0% { background: linear-gradient(45deg, rgba(255,255,255,0.3) 0%, transparent 30%, rgba(0,255,255,0.2) 70%, rgba(255,255,255,0.2) 100%); }
-  25% { background: linear-gradient(135deg, transparent 0%, rgba(255,255,255,0.4) 40%, rgba(0,255,255,0.3) 60%, transparent 100%); }
-  50% { background: linear-gradient(225deg, rgba(0,255,255,0.2) 0%, transparent 30%, rgba(255,255,255,0.3) 70%, rgba(0,188,212,0.2) 100%); }
-  75% { background: linear-gradient(315deg, transparent 0%, rgba(0,255,255,0.3) 40%, rgba(255,255,255,0.4) 60%, transparent 100%); }
-  100% { background: linear-gradient(45deg, rgba(255,255,255,0.3) 0%, transparent 30%, rgba(0,255,255,0.2) 70%, rgba(255,255,255,0.2) 100%); }
-}
-
-@keyframes subtlePulse {
-  0%, 100% { transform: scale(1); box-shadow: 0 4px 20px rgba(0,0,0,0.2); }
-  50% { transform: scale(1.02); box-shadow: 0 8px 40px rgba(0,255,255,0.3); }
-}
-</style>
-
 </div>
 
 ---
 
-<!-- Liquid Glass UI Concept Section -->
-<div style="position: relative; background: rgba(255,255,255,0.12); backdrop-filter: blur(20px); border-radius: 25px; padding: 30px; margin: 25px 0; box-shadow: 0 8px 35px rgba(0,0,0,0.15), inset 0 2px 0 rgba(255,255,255,0.3); border: 2px solid rgba(255,255,255,0.25); overflow: hidden; animation: cardFloat 8s ease-in-out infinite;">
+<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(15px); border-radius: 15px; padding: 15px; margin: 15px 0; box-shadow: 0 4px 24px rgba(0,0,0,0.1); border: 1px solid rgba(255,255,255,0.2);">
 
-<!-- Background Electrolytes -->
-<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
-  <div style="position: absolute; top: 25%; left: 15%; width: 3px; height: 3px; background: radial-gradient(circle, rgba(0,255,255,0.8), transparent); border-radius: 50%; animation: miniFloat1 4s ease-in-out infinite, sparkle 1.5s linear infinite;"></div>
-  <div style="position: absolute; top: 70%; left: 85%; width: 4px; height: 4px; background: radial-gradient(circle, rgba(255,255,255,0.9), transparent); border-radius: 50%; animation: miniFloat2 5s ease-in-out infinite, sparkle 2s linear infinite;"></div>
-  <div style="position: absolute; top: 45%; left: 90%; width: 2px; height: 2px; background: radial-gradient(circle, rgba(0,188,212,0.7), transparent); border-radius: 50%; animation: miniFloat3 3s ease-in-out infinite, sparkle 1.8s linear infinite;"></div>
-</div>
-
-<h2 align="center" style="color: #00bcd4; text-shadow: 0 0 15px rgba(0,188,212,0.7); margin-bottom: 20px; animation: textGlow 4s ease-in-out infinite alternate;">✨ Liquid Glass UI Concept ✨</h2>
-
-<div align="center" style="margin: 20px 0;">
-  <div style="position: relative; display: inline-block;">
-    <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/slade-logo.png" width="140" style="border-radius: 20px; background: rgba(255,255,255,0.2); backdrop-filter: blur(12px); box-shadow: 0 8px 30px rgba(0,255,255,0.4); border: 2px solid rgba(255,255,255,0.3); animation: conceptImageFloat 6s ease-in-out infinite;" alt="Liquid Glass UI" />
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, rgba(255,255,255,0.4) 0%, transparent 50%, rgba(0,255,255,0.3) 100%); border-radius: 20px; animation: conceptReflection 3s linear infinite;"></div>
-  </div>
-</div>
-
-<p align="center" style="color: #00bcd4; font-size: 1.2em; background: rgba(255,255,255,0.15); border-radius: 15px; padding: 20px 30px; box-shadow: 0 6px 30px rgba(0,0,0,0.15); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.2); text-shadow: 0 2px 10px rgba(0,0,0,0.3); animation: descriptionPulse 7s ease-in-out infinite;">
-<strong style="animation: textShimmer 3s linear infinite;">Liquid Glass UI</strong> is a glassmorphism-inspired interface style, blending frosted backgrounds, vibrant highlights, and soft shadows for a modern, immersive look.<br>
-<em style="color: #e0e0e0;">Perfect for dashboards, modals, and creative web apps.</em>
+<h2 align="center" style="color: #00bcd4;">✨ Liquid Glass UI Concept ✨</h2>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/slade-logo.png" width="120" style="border-radius: 16px; filter: blur(1px) brightness(1.1) drop-shadow(0 0 24px rgba(0,255,255,0.3)); background: rgba(255,255,255,0.15); box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.18);" alt="Liquid Glass UI" />
+</p>
+<p align="center" style="color:#00bcd4; font-size:1.1em; background:rgba(255,255,255,0.12); border-radius:12px; padding:12px 24px; box-shadow:0 4px 24px rgba(0,0,0,0.12); backdrop-filter:blur(6px);">
+<strong>Liquid Glass UI</strong> is a glassmorphism-inspired interface style, blending frosted backgrounds, vibrant highlights, and soft shadows for a modern, immersive look.<br>
+<em>Perfect for dashboards, modals, and creative web apps.</em>
 </p>
 
-<style>
-@keyframes cardFloat {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-8px); }
-}
+</div>
 
-@keyframes miniFloat1 {
-  0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.6; }
-  50% { transform: translateY(-15px) translateX(8px); opacity: 1; }
-}
+---
 
-@keyframes miniFloat2 {
-  0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.8; }
-  50% { transform: translateY(-20px) translateX(-12px); opacity: 0.4; }
-}
+<div style="background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border-radius: 12px; padding: 12px; margin: 12px 0; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border: 1px solid rgba(255,255,255,0.15);">
 
-@keyframes miniFloat3 {
-  0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.7; }
-  50% { transform: translateY(-10px) translateX(5px); opacity: 1; }
-}
+## 🧠 About Me
 
-@keyframes conceptImageFloat {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  25% { transform: translateY(-5px) rotate(1deg); }
-  50% { transform: translateY(-8px) rotate(0deg); }
-  75% { transform: translateY(-3px) rotate(-1deg); }
-}
-
-@keyframes conceptReflection {
-  0% { background: linear-gradient(45deg, rgba(255,255,255,0.4) 0%, transparent 50%, rgba(0,255,255,0.3) 100%); }
-  33% { background: linear-gradient(135deg, rgba(0,255,255,0.3) 0%, transparent 50%, rgba(255,255,255,0.4) 100%); }
-  66% { background: linear-gradient(225deg, rgba(255,255,255,0.4) 0%, transparent 50%, rgba(0,255,255,0.3) 100%); }
-  100% { background: linear-gradient(45deg, rgba(255,255,255,0.4) 0%, transparent 50%, rgba(0,255,255,0.3) 100%); }
-}
-
-@keyframes descriptionPulse {
-  0%, 100% { box-shadow: 0 6px 30px rgba(0,0,0,0.15); transform: scale(1); }
-  50% { box-shadow: 0 12px 50px rgba(0,255,255,0.25); transform: scale(1.01); }
-}
-
-@keyframes textShimmer {
-  0% { color: #00bcd4; }
-  50% { color: #00ffff; }
-  100% { color: #00bcd4; }
-}
-</style>
+- 💡 Passionate about intuitive UI/UX, responsive design, and real-time web functionality
+- 🧊 Designing with glassmorphism and Liquid Glass UI for next-gen web experiences
+- 🔒 Exploring local-first security, password encryption, and browser data integration
+- 💻 Devoted to scalable platforms with modular architecture (`Salon`)
+- 🧑🏾‍🏫 Creating tech-driven learning spaces like `CourseCampus` for digital skill empowerment
+- 🐧 Always curious — currently experimenting with Linux terminal interfaces in the browser
+- ⚙️ Practicing DevOps automation with CI/CD pipelines, containerization, and infrastructure as code
+- 🧵 Skilled in Red Hat System Administration — user management, SELinux, systemd, and secure networking
 
 </div>
 
 ---
 
-<!-- About Me Section with Enhanced Liquid Glass -->
-<div style="position: relative; background: rgba(255,255,255,0.1); backdrop-filter: blur(18px); border-radius: 20px; padding: 25px; margin: 20px 0; box-shadow: 0 6px 25px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.3); border: 1px solid rgba(255,255,255,0.2); overflow: hidden; animation: sectionWave 10s ease-in-out infinite;">
+<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(15px); border-radius: 15px; padding: 15px; margin: 15px 0; box-shadow: 0 4px 24px rgba(0,0,0,0.1); border: 1px solid rgba(255,255,255,0.2);">
 
-<!-- Section Electrolytes -->
-<div style="position: absolute; top: 10%; right: 10%; width: 5px; height: 5px; background: radial-gradient(circle, rgba(0,255,255,0.9), transparent); border-radius: 50%; animation: sectionFloat1 7s ease-in-out infinite, sparkle 2.3s linear infinite;"></div>
-<div style="position: absolute; bottom: 20%; left: 8%; width: 6px; height: 6px; background: radial-gradient(circle, rgba(255,255,255,0.8), transparent); border-radius: 50%; animation: sectionFloat2 9s ease-in-out infinite, sparkle 1.7s linear infinite;"></div>
+## 🔧 Tech Toolbox
 
-<h2 style="color: #00bcd4; text-shadow: 0 0 12px rgba(0,188,212,0.6); margin-bottom: 20px; animation: headerGlow 5s ease-in-out infinite alternate;">🧠 About Me</h2>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode,docker,bash,ansible" alt="Tech Stack Icons" />
+</p>
 
-<div style="color: #e0e0e0; line-height: 1.8; text-shadow: 0 1px 5px rgba(0,0,0,0.3);">
+</div>
 
-- 💡 Passionate about intuitive UI/UX, responsive design, and real-time web functionality
+---
+
+<div style="background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border-radius: 12px; padding: 12px; margin: 12px 0; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border: 1px solid rgba(255,255,255,0.15);">
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Lintshiwe&show_icons=true&theme=radical&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=radical&hide_border=true&bg_color=00000000" alt="Top Languages" />
+</p>
+
+</div>
+
+---
+
+<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(15px); border-radius: 15px; padding: 15px; margin: 15px 0; box-shadow: 0 4px 24px rgba(0,0,0,0.1); border: 1px solid rgba(255,255,255,0.2);">
+
+## 🪟 Liquid Glass UI Example
+
+```jsx
+// React + Tailwind CSS Glassmorphism Card
+<div className="bg-white/20 backdrop-blur-lg rounded-xl border border-white/30 shadow-lg p-6">
+  <h3 className="text-cyan-400 font-bold text-lg mb-2">Liquid Glass UI Card</h3>
+  <p className="text-white/80">
+    A frosted glass effect for modern dashboards and modals.
+  </p>
+</div>
+```
+
+</div>
+
+---
+
+<div style="background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border-radius: 12px; padding: 12px; margin: 12px 0; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border: 1px solid rgba(255,255,255,0.15);">
+
+## 🚀 Featured Projects
+
+| 🌟 Project                                                                      | ⚡ Description                                           | 🛠️ Tech Stack                      |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------- |
+| [PasswordManager](https://github.com/Lintshiwe/PasswordManager)                 | Local-first encrypted vault with smart browser detection | Python · Tkinter · Fernet · SQLite |
+| [CourseCampus](https://github.com/Lintshiwe/CourseCampus)                       | Web + terminal hybrid platform for student learning      | Next.js 14 · Tailwind · Firebase   |
+| [Salon](https://github.com/Lintshiwe/Salon)                                     | Reusable UI + scalable frontend boilerplate              | React · TypeScript · Tailwind CSS  |
+| [JunksElectricalSolution](https://github.com/Lintshiwe/JunksElectricalSolution) | Real-time quote system for electrical services           | Next.js · Firebase · Tailwind      |
+| [Slade_MITM](https://github.com/Lintshiwe/Slade_MITM)                           | MITM proxy for ethical cybersecurity training            | Python · mitmproxy                 |
+
+</div>
+
+---
+
+<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(15px); border-radius: 15px; padding: 15px; margin: 15px 0; box-shadow: 0 4px 24px rgba(0,0,0,0.1); border: 1px solid rgba(255,255,255,0.2);">
+
+## 🧪 Currently Working On
+
+- 🎓 Linux-style browser terminals for education
+- 🧊 Advancing Liquid Glass UI implementations in React and Tailwind
+- 🔐 Enhancing local-first security patterns for web apps
+- 🏗️ Building modular architectures for scalable platforms
+- 🐧 Experimenting with browser-based terminal emulators
+
+</div>
+
+---
+
+<div style="background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border-radius: 12px; padding: 12px; margin: 12px 0; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border: 1px solid rgba(255,255,255,0.15);">
+
+<p align="center" style="color: #00bcd4; font-style: italic;">
+  Minimal branding. Ethical code. Purpose-built tech.
+</p>
+
+</div>
+
+---
+
+<div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(15px); border-radius: 15px; padding: 15px; margin: 15px 0; box-shadow: 0 4px 24px rgba(0,0,0,0.1); border: 1px solid rgba(255,255,255,0.2);">
+
+## 🎯 Achievements & Fun Facts
+
+- 🏆 Built 5+ full-stack projects with modern web technologies
+- 🌟 Passionate about open-source contributions and community learning
+- 💡 Innovating UI/UX with glassmorphism and futuristic designs
+- 🔧 Skilled in DevOps, containerization, and secure system administration
+- 📚 Always learning — from browser terminals to ethical hacking
+
+</div>
+
+---
+
+<div style="background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border-radius: 12px; padding: 12px; margin: 12px 0; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border: 1px solid rgba(255,255,255,0.15);">
+
+## 🌐 Connect with Me
+
+<p align="center">
+  <a href="https://github.com/Lintshiwe" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="30" alt="GitHub" /></a>
+  <a href="https://twitter.com/YourHandle" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" width="30" alt="Twitter" /></a>
+  <a href="https://linkedin.com/in/YourProfile" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" alt="LinkedIn" /></a>
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" height="24" alt="Email" /></a>
+</p>
+
+</div>- 💡 Passionate about intuitive UI/UX, responsive design, and real-time web functionality
 - 🧊 Designing with glassmorphism and Liquid Glass UI for next-gen web experiences
 - 🔒 Exploring local-first security, password encryption, and browser data integration
 - 💻 Devoted to scalable platforms with modular architecture (`Salon`)
