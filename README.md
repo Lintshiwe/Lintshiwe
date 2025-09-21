@@ -1,7 +1,3 @@
-# <<<<<<< HEAD
-
-> > > > > > > dfcc1daf0fec4dcd21c4e13516e2dd3a07bd14e7
-
 <div style="background: linear-gradient(135deg, rgba(0,188,212,0.1), rgba(255,255,255,0.05)); backdrop-filter: blur(20px); border-radius: 20px; padding: 20px; margin: 20px 0; box-shadow: 0 8px 32px rgba(31,38,135,0.37); border: 1px solid rgba(255,255,255,0.18);">
 
 <p align="center">
