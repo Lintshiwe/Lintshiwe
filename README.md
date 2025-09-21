@@ -1,17 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/slade-logo.png"
-       width="140"
-       alt="Slade The Deceiver Logo"
-       style="border-radius: 12px; filter: drop-shadow(0 0 20px rgba(0,0,0,0.4));" />
-</p>
-
-<h1 align="center">Hey there, I'm Lintshiwe 👨🏾‍💻</h1>
-<p align="center">
-  Code Stylist · UI/UX Explorer · Terminal Enthusiast · Offensive Security Learner  
-</p>
-<p align="center">
-  Building full-stack experiences that blend performance, creativity, and secure tech.
-</p>
 
 ---
 
