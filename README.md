@@ -1,18 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/slade-logo.png"
-       width="140"
-       alt="Slade The Deceiver Logo"
-       style="border-radius: 12px; filter: drop-shadow(0 0 20px rgba(0,0,0,0.4));" />
-</p>
-
-<h1 align="center">Hey there, I'm Lintshiwe 👨🏾‍💻</h1>
-<p align="center">
-  Code Stylist · UI/UX Explorer · Terminal Enthusiast · Offensive Security Learner  
-</p>
-<p align="center">
-  Building full-stack experiences that blend performance, creativity, and secure tech.
-</p>
-
 ---
 
 <h2 align="center">✨ Liquid Glass UI Concept ✨</h2>
@@ -23,8 +8,6 @@
 <strong>Liquid Glass UI</strong> is a glassmorphism-inspired interface style, blending frosted backgrounds, vibrant highlights, and soft shadows for a modern, immersive look.<br>
 <em>Perfect for dashboards, modals, and creative web apps.</em>
 </p>
-
----
 
 ---
 
@@ -44,7 +27,16 @@
 ## 🔧 Tech Toolbox
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode,docker,bash,ansible" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode,docker,bash,ansible" alt="Tech Stack Icons" />
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Lintshiwe&show_icons=true&theme=radical&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=radical&hide_border=true&bg_color=00000000" alt="Top Languages" />
 </p>
 
 ---
@@ -78,6 +70,10 @@
 ## 🧪 Currently Working On
 
 - 🎓 Linux-style browser terminals for education
+- 🧊 Advancing Liquid Glass UI implementations in React and Tailwind
+- 🔐 Enhancing local-first security patterns for web apps
+- 🏗️ Building modular architectures for scalable platforms
+- 🐧 Experimenting with browser-based terminal emulators
 
 ---
 
@@ -87,11 +83,21 @@
 
 ---
 
-## 🌐 Connect with Me
+## � Achievements & Fun Facts
+
+- 🏆 Built 5+ full-stack projects with modern web technologies
+- 🌟 Passionate about open-source contributions and community learning
+- 💡 Innovating UI/UX with glassmorphism and futuristic designs
+- 🔧 Skilled in DevOps, containerization, and secure system administration
+- 📚 Always learning — from browser terminals to ethical hacking
+
+---
+
+## �🌐 Connect with Me
 
 <p align="center">
-  <a href="https://github.com/Lintshiwe" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="30" /></a>
-  <a href="https://twitter.com/YourHandle" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" width="30" /></a>
-  <a href="https://linkedin.com/in/YourProfile" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" /></a>
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" height="24" /></a>
+  <a href="https://github.com/Lintshiwe" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="30" alt="GitHub" /></a>
+  <a href="https://twitter.com/YourHandle" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" width="30" alt="Twitter" /></a>
+  <a href="https://linkedin.com/in/YourProfile" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" alt="LinkedIn" /></a>
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" height="24" alt="Email" /></a>
 </p>
