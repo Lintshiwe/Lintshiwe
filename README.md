@@ -1,6 +1,5 @@
 <!-- Glass Header -->
 <p align="center">
- 
 </p>
 
 <h1 align="center">
@@ -19,7 +18,7 @@
 
 ## ✨ About Me  
 - 💻 Building **full-stack experiences** blending performance, creativity & security  
-- 🧊 Designing futuristic **Liquid Glass UIs **  
+- 🧊 Designing futuristic **Liquid Glass UIs**  
 - 🐧 Experimenting with **Linux browser terminals**  
 - 🔒 Exploring **local-first encryption & security**  
 - ⚙️ Skilled in **DevOps & Red Hat Administration**  
@@ -38,6 +37,11 @@
   <img src="https://github-readme-stats.vercel.app/api?username=Lintshiwe&show_icons=true&theme=transparent&title_color=00ffff&text_color=ffffff&icon_color=8b5cf6" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=transparent&title_color=00ffff&text_color=ffffff" />
 </p>
+
+---
+
+## 🏅 Digital Badges  
+[![An image of @lintshiwe's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/lintshiwe)](https://holopin.io/@lintshiwe)
 
 ---
 
@@ -66,5 +70,4 @@
 
 <!-- Glass Footer -->
 <p align="center">
-
 </p>
