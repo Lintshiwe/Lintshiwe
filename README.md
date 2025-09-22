@@ -19,7 +19,7 @@
 
 ## ✨ About Me  
 - 💻 Building **full-stack experiences** blending performance, creativity & security  
-- 🧊 Designing futuristic **Liquid Glass UIs (iOS-style)**  
+- 🧊 Designing futuristic **Liquid Glass UIs **  
 - 🐧 Experimenting with **Linux browser terminals**  
 - 🔒 Exploring **local-first encryption & security**  
 - ⚙️ Skilled in **DevOps & Red Hat Administration**  
