@@ -16,12 +16,12 @@
   </div>
   
   <h1 style="margin: 20px 0; font-size: 2.5em; font-weight: 700; background: linear-gradient(135deg, #00ffff 0%, #8b5cf6 50%, #06b6d4 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-shadow: 0 4px 20px rgba(0,255,255,0.3); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));">
-    Lintshiwe Ntoampi ������‍���
+  Lintshiwe Ntoampi 👨🏾‍💻
   </h1>
   
   <div style="background: rgba(255,255,255,0.15); backdrop-filter: blur(20px); border-radius: 20px; padding: 16px 28px; margin: 20px auto; max-width: 600px; box-shadow: 0 8px 25px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.3); border: 1px solid rgba(255,255,255,0.2);">
     <p style="margin: 0; font-size: 1.1em; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.3); font-weight: 500;">
-      ��� Code Stylist · UI/UX Explorer · Terminal Enthusiast · Offensive Security Learner
+      💡 Code Stylist · UI/UX Explorer · Terminal Enthusiast · Offensive Security Learner
     </p>
   </div>
   
@@ -31,24 +31,6 @@
 </div>
 
 </div>
-
-<style>
-@keyframes liquidFlow {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-}
-
-@keyframes glassShimmer {
-  0% { box-shadow: 0 0 5px rgba(255,255,255,0.1), 0 0 10px rgba(0,255,255,0.1), 0 0 15px rgba(139,92,246,0.1); }
-  50% { box-shadow: 0 0 10px rgba(255,255,255,0.2), 0 0 20px rgba(0,255,255,0.2), 0 0 30px rgba(139,92,246,0.2); }
-  100% { box-shadow: 0 0 5px rgba(255,255,255,0.1), 0 0 10px rgba(0,255,255,0.1), 0 0 15px rgba(139,92,246,0.1); }
-}
-
-@keyframes floatGlow {
-  0%, 100% { transform: translateY(0px); box-shadow: 0 5px 15px rgba(0,255,255,0.2); }
-  50% { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,255,255,0.3); }
-}
-</style>
 
 ---
 
@@ -60,19 +42,19 @@
 
 <div style="display: grid; gap: 12px; color: rgba(255,255,255,0.95); line-height: 1.7; font-size: 1.05em;">
   <div style="display: flex; align-items: center; padding: 8px 0;">
-    <span style="margin-right: 12px; font-size: 1.2em;">���</span>
+    <span style="margin-right: 12px; font-size: 1.2em;">💻</span>
     <span>Building <strong style="color: #00ffff;">full-stack experiences</strong> blending performance, creativity & security</span>
   </div>
   <div style="display: flex; align-items: center; padding: 8px 0;">
-    <span style="margin-right: 12px; font-size: 1.2em;">���</span>
+    <span style="margin-right: 12px; font-size: 1.2em;">🧊</span>
     <span>Designing futuristic <strong style="color: #8b5cf6;">Liquid Glass UIs</strong></span>
   </div>
   <div style="display: flex; align-items: center; padding: 8px 0;">
-    <span style="margin-right: 12px; font-size: 1.2em;">���</span>
+    <span style="margin-right: 12px; font-size: 1.2em;">🐧</span>
     <span>Experimenting with <strong style="color: #06b6d4;">Linux browser terminals</strong></span>
   </div>
   <div style="display: flex; align-items: center; padding: 8px 0;">
-    <span style="margin-right: 12px; font-size: 1.2em;">��</span>
+    <span style="margin-right: 12px; font-size: 1.2em;">🔒</span>
     <span>Exploring <strong style="color: #00ffff;">local-first encryption & security</strong></span>
   </div>
   <div style="display: flex; align-items: center; padding: 8px 0;">
@@ -85,7 +67,7 @@
 
 ---
 
-## ��� Tech Toolbox
+## 🧪 Tech Toolbox
 
 <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(30px) saturate(160%); border-radius: 24px; padding: 30px; margin: 25px 0; box-shadow: 0 20px 40px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.3); border: 1.5px solid rgba(255,255,255,0.2); position: relative;">
 
@@ -101,7 +83,7 @@
 
 ---
 
-## ��� GitHub Stats
+## 📊 GitHub Stats
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 25px 0;">
 
@@ -121,7 +103,7 @@
 
 ---
 
-## ��� Digital Badges
+## 🏅 Digital Badges
 
 <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(30px) saturate(160%); border-radius: 24px; padding: 30px; margin: 25px 0; box-shadow: 0 20px 40px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.3); border: 1.5px solid rgba(255,255,255,0.2); text-align: center;">
 
@@ -135,7 +117,7 @@
 
 ---
 
-## ��� Featured Projects
+## 🚀 Featured Projects
 
 <div style="background: rgba(255,255,255,0.08); backdrop-filter: blur(25px) saturate(150%); border-radius: 24px; padding: 30px; margin: 25px 0; box-shadow: 0 15px 35px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.25); border: 1.5px solid rgba(255,255,255,0.18);">
 
@@ -143,7 +125,7 @@
 
 <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(20px); border-radius: 16px; padding: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.15);">
   <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
-    <h3 style="margin: 0; color: #00ffff; font-size: 1.3em; font-weight: 600;">��� PasswordManager</h3>
+  ### 🌟 PasswordManager
     <span style="background: rgba(0,255,255,0.2); color: #00ffff; padding: 4px 8px; border-radius: 8px; font-size: 0.8em; font-weight: 500;">Python</span>
   </div>
   <p style="margin: 8px 0; color: rgba(255,255,255,0.85); line-height: 1.5;">Encrypted vault with browser detection</p>
@@ -152,7 +134,7 @@
 
 <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(20px); border-radius: 16px; padding: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.15);">
   <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
-    <h3 style="margin: 0; color: #8b5cf6; font-size: 1.3em; font-weight: 600;">��� CourseCampus</h3>
+  ### 🌟 CourseCampus
     <span style="background: rgba(139,92,246,0.2); color: #8b5cf6; padding: 4px 8px; border-radius: 8px; font-size: 0.8em; font-weight: 500;">Next.js</span>
   </div>
   <p style="margin: 8px 0; color: rgba(255,255,255,0.85); line-height: 1.5;">Hybrid learning platform</p>
@@ -161,7 +143,7 @@
 
 <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(20px); border-radius: 16px; padding: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.15);">
   <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
-    <h3 style="margin: 0; color: #06b6d4; font-size: 1.3em; font-weight: 600;">��� Salon</h3>
+  ### 🌟 Salon
     <span style="background: rgba(6,182,212,0.2); color: #06b6d4; padding: 4px 8px; border-radius: 8px; font-size: 0.8em; font-weight: 500;">React</span>
   </div>
   <p style="margin: 8px 0; color: rgba(255,255,255,0.85); line-height: 1.5;">Scalable UI boilerplate</p>
@@ -170,7 +152,7 @@
 
 <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(20px); border-radius: 16px; padding: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.15);">
   <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
-    <h3 style="margin: 0; color: #ff6b6b; font-size: 1.3em; font-weight: 600;">���️ Slade_MITM</h3>
+  ### 🌟 Slade_MITM
     <span style="background: rgba(255,107,107,0.2); color: #ff6b6b; padding: 4px 8px; border-radius: 8px; font-size: 0.8em; font-weight: 500;">Security</span>
   </div>
   <p style="margin: 8px 0; color: rgba(255,255,255,0.85); line-height: 1.5;">MITM proxy for ethical hacking</p>
@@ -182,7 +164,7 @@
 
 ---
 
-## ��� Connect with Me
+## 🔗 Connect with Me
 
 <div style="background: rgba(255,255,255,0.08); backdrop-filter: blur(25px) saturate(150%); border-radius: 24px; padding: 30px; margin: 25px 0; box-shadow: 0 15px 35px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.25); border: 1.5px solid rgba(255,255,255,0.18); text-align: center;">
 
