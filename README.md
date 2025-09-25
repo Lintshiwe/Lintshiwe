@@ -13,7 +13,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
+<img src="https://img.shields.io/badge/-_-transparent?style=for-the-badge&logoColor=white&labelColor=ffffff00&color=ffffff00&logo=azuredevops" width="100%" height="8" alt="Glass Divider" />
 
 ## ✨ About Me
 
@@ -25,7 +25,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
+<img src="https://img.shields.io/badge/-_-transparent?style=for-the-badge&logoColor=white&labelColor=ffffff00&color=ffffff00&logo=azuredevops" width="100%" height="8" alt="Glass Divider" />
 
 ## 🧪 Tech Toolbox
 
@@ -33,7 +33,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
+<img src="https://img.shields.io/badge/-_-transparent?style=for-the-badge&logoColor=white&labelColor=ffffff00&color=ffffff00&logo=azuredevops" width="100%" height="8" alt="Glass Divider" />
 
 ## 📊 GitHub Stats
 
@@ -42,7 +42,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
+<img src="https://img.shields.io/badge/-_-transparent?style=for-the-badge&logoColor=white&labelColor=ffffff00&color=ffffff00&logo=azuredevops" width="100%" height="8" alt="Glass Divider" />
 
 ## 🏅 Digital Badges
 
@@ -52,7 +52,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
+<img src="https://img.shields.io/badge/-_-transparent?style=for-the-badge&logoColor=white&labelColor=ffffff00&color=ffffff00&logo=azuredevops" width="100%" height="8" alt="Glass Divider" />
 
 ## 🚀 Featured Projects
 
@@ -95,7 +95,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
+<img src="https://img.shields.io/badge/-_-transparent?style=for-the-badge&logoColor=white&labelColor=ffffff00&color=ffffff00&logo=azuredevops" width="100%" height="8" alt="Glass Divider" />
 
 ## 🔗 Connect with Me
 
@@ -105,7 +105,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
+<img src="https://img.shields.io/badge/-_-transparent?style=for-the-badge&logoColor=white&labelColor=ffffff00&color=ffffff00&logo=azuredevops" width="100%" height="8" alt="Glass Divider" />
 
 ✨ Crafted with Liquid Glass UI • iOS 26 Design Language ✨
 
