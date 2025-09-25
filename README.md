@@ -8,7 +8,7 @@
 
 Building full-stack experiences that blend performance, creativity, and secure tech.
 
-<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
+<hr style="height:4px; border:none; background:linear-gradient(90deg,#00c6fb,#005bea); margin:32px 0; border-radius:2px;" />
 
 ## ✨ About Me
 
@@ -22,7 +22,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 <img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode,docker,bash,ansible" alt="Tech Stack Icons" />
 
-<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
+<hr style="height:4px; border:none; background:linear-gradient(90deg,#00c6fb,#005bea); margin:32px 0; border-radius:2px;" />
 
 ## 📊 GitHub Stats
 
@@ -30,13 +30,13 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=transparent&title_color=8b5cf6&text_color=ffffff&hide_border=true&bg_color=00000000" alt="Top Languages" />
 
-<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
+<hr style="height:4px; border:none; background:linear-gradient(90deg,#00c6fb,#005bea); margin:32px 0; border-radius:2px;" />
 
 ## 🏅 Digital Badges
 
 [![Holopin Badge Board](https://holopin.me/lintshiwe)](https://holopin.io/@lintshiwe)
 
-<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
+<hr style="height:4px; border:none; background:linear-gradient(90deg,#00c6fb,#005bea); margin:32px 0; border-radius:2px;" />
 
 ## 🚀 Featured Projects
 
@@ -44,7 +44,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 | :-----------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------: |
 |                   **PasswordManager**<br/><sub>Encrypted vault with browser detection<br/>Python · Tkinter · SQLite</sub>                   |                            **CourseCampus**<br/><sub>Hybrid learning platform<br/>Next.js · Tailwind · Firebase</sub>                            |                         **Salon**<br/><sub>Scalable UI boilerplate<br/>React · TypeScript · Tailwind</sub>                          |                    **Slade_MITM**<br/><sub>MITM proxy for ethical hacking<br/>Python · mitmproxy</sub>                     |
 
-<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
+<hr style="height:4px; border:none; background:linear-gradient(90deg,#00c6fb,#005bea); margin:32px 0; border-radius:2px;" />
 
 ## 🔗 Connect with Me
 
@@ -52,6 +52,6 @@ Building full-stack experiences that blend performance, creativity, and secure t
 [<img src="https://skillicons.dev/icons?i=twitter" width="40" alt="Twitter" />](https://twitter.com/Lintshiwe)
 [<img src="https://skillicons.dev/icons?i=gmail" width="40" alt="Gmail" />](mailto:ntoampilp@gmail.com)
 
-<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
+<hr style="height:4px; border:none; background:linear-gradient(90deg,#00c6fb,#005bea); margin:32px 0; border-radius:2px;" />
 
 ✨ Crafted with Liquid Glass UI • iOS 26 Design Language ✨
