@@ -63,9 +63,9 @@
 
 ## 🔗 Connect with Me  
 <p align="center">
-  <a href="https://linkedin.com/in/your-link"><img src="https://skillicons.dev/icons?i=linkedin" width="40"/></a>
-  <a href="https://twitter.com/your-link"><img src="https://skillicons.dev/icons?i=twitter" width="40"/></a>
-  <a href="mailto:youremail@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40"/></a>
+  <a href="https://linkedin.com/in/lintshiwe"><img src="https://skillicons.dev/icons?i=linkedin" width="40"/></a>
+  <a href="https://twitter.com/Lintshiwe"><img src="https://skillicons.dev/icons?i=twitter" width="40"/></a>
+  <a href="mailto:ntoampilp@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40"/></a>
 </p>
 
 <!-- Glass Footer -->
