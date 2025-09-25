@@ -2,7 +2,9 @@
 
 <img src="https://raw.githubusercontent.com/rajat2502/svg-assets/main/liquid-glass-banner.gif" alt="Liquid Glass Animation banner" width="100%" />
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/slade-logo.png" width="140" alt="Lintshiwe Ntoampi avatar" />
+</div>
 
 ## 💡 Code Stylist · UI/UX Explorer · Terminal Enthusiast · Offensive Security Learner
 
