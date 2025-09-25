@@ -1,5 +1,6 @@
 <div align="center">
 
+<!-- Glassy Animated Banner -->
 <img src="https://raw.githubusercontent.com/rajat2502/svg-assets/main/liquid-glass-banner.gif" alt="Liquid Glass Animation" width="100%" style="max-width:600px; border-radius:32px; margin-bottom:20px;" />
 
 <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/slade-logo.png" width="140" alt="Lintshiwe Ntoampi" style="border-radius:50%;margin-bottom:10px;" />
@@ -12,6 +13,8 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
+<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
+
 ## ✨ About Me
 
 💻 Building **full-stack experiences** blending performance, creativity & security  
@@ -22,11 +25,15 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
+<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
+
 ## 🧪 Tech Toolbox
 
 <img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode,docker,bash,ansible" alt="Tech Stack Icons" />
 
 ---
+
+<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
 
 ## 📊 GitHub Stats
 
@@ -34,6 +41,8 @@ Building full-stack experiences that blend performance, creativity, and secure t
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=transparent&title_color=8b5cf6&text_color=ffffff&hide_border=true&bg_color=00000000" alt="Top Languages" />
 
 ---
+
+<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
 
 ## 🏅 Digital Badges
 
@@ -43,33 +52,50 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
+<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
+
 ## 🚀 Featured Projects
 
-### 🌟 PasswordManager
-
-**Language:** Python  
-Encrypted vault with browser detection  
-_Python · Tkinter · SQLite_
-
-### 🌟 CourseCampus
-
-**Language:** Next.js  
-Hybrid learning platform  
-_Next.js · Tailwind · Firebase_
-
-### 🌟 Salon
-
-**Language:** React  
-Scalable UI boilerplate  
-_React · TypeScript · Tailwind_
-
-### 🌟 Slade_MITM
-
-**Language:** Security  
-MITM proxy for ethical hacking  
-_Python · mitmproxy_
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Lintshiwe/PasswordManager">
+        <img src="https://skillicons.dev/icons?i=python,sqlite" width="80" alt="PasswordManager" /><br/>
+        <b>PasswordManager</b>
+      </a>
+      <br/>
+      <sub>Encrypted vault with browser detection<br/>Python · Tkinter · SQLite</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Lintshiwe/CourseCampus">
+        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,firebase" width="80" alt="CourseCampus" /><br/>
+        <b>CourseCampus</b>
+      </a>
+      <br/>
+      <sub>Hybrid learning platform<br/>Next.js · Tailwind · Firebase</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Lintshiwe/Salon">
+        <img src="https://skillicons.dev/icons?i=react,typescript,tailwind" width="80" alt="Salon" /><br/>
+        <b>Salon</b>
+      </a>
+      <br/>
+      <sub>Scalable UI boilerplate<br/>React · TypeScript · Tailwind</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Lintshiwe/Slade_MITM">
+        <img src="https://skillicons.dev/icons?i=python" width="80" alt="Slade_MITM" /><br/>
+        <b>Slade_MITM</b>
+      </a>
+      <br/>
+      <sub>MITM proxy for ethical hacking<br/>Python · mitmproxy</sub>
+    </td>
+  </tr>
+</table>
 
 ---
+
+<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
 
 ## 🔗 Connect with Me
 
@@ -78,6 +104,8 @@ _Python · mitmproxy_
 <a href="mailto:ntoampilp@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40" alt="Gmail" /></a>
 
 ---
+
+<img src="https://svgshare.com/i/13kA.svg" width="100%" alt="Glass Divider" />
 
 ✨ Crafted with Liquid Glass UI • iOS 26 Design Language ✨
 
