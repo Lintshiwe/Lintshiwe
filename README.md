@@ -13,8 +13,8 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<!-- Blue Glass Divider -->
-<img src="https://i.imgur.com/1Q9Z1Zm.png" width="80%" alt="Blue Glass Divider" />
+<!-- Blue Gradient Divider -->
+<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
 
 ## ✨ About Me
 
@@ -26,7 +26,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://i.imgur.com/1Q9Z1Zm.png" width="80%" alt="Blue Glass Divider" />
+<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
 
 ## 🧪 Tech Toolbox
 
@@ -34,7 +34,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://i.imgur.com/1Q9Z1Zm.png" width="80%" alt="Blue Glass Divider" />
+<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
 
 ## 📊 GitHub Stats
 
@@ -43,7 +43,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://i.imgur.com/1Q9Z1Zm.png" width="80%" alt="Blue Glass Divider" />
+<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
 
 ## 🏅 Digital Badges
 
@@ -53,7 +53,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://i.imgur.com/1Q9Z1Zm.png" width="80%" alt="Blue Glass Divider" />
+<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
 
 ## 🚀 Featured Projects
 
@@ -96,7 +96,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://i.imgur.com/1Q9Z1Zm.png" width="80%" alt="Blue Glass Divider" />
+<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
 
 ## 🔗 Connect with Me
 
@@ -106,7 +106,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ---
 
-<img src="https://i.imgur.com/1Q9Z1Zm.png" width="80%" alt="Blue Glass Divider" />
+<img src="https://i.imgur.com/6RLwKQk.png" width="80%" alt="Blue Gradient Divider" />
 
 ✨ Crafted with Liquid Glass UI • iOS 26 Design Language ✨
 
