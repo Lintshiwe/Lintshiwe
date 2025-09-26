@@ -86,6 +86,6 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 <div align="center">
 
-✨ Crafted with Liquid Glass UI • iOS 26 Design Language ✨
+✨ Slade the Deciever ✨
 
 </div>
