@@ -52,7 +52,7 @@ Building full-stack experiences that blend performance, creativity, and secure t
 
 ## 🏅 Digital Badges
 
-[![Holopin Badge Board](https://holopin.me/lintshiwe)](https://holopin.io/@lintshiwe)
+[![An image of @lintshiwe's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/lintshiwe)](https://holopin.io/@lintshiwe)
 
 </div>
 
