@@ -98,36 +98,23 @@
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center" width="220">
-      <a href="https://github.com/Lintshiwe/PasswordManager"><img src="https://img.icons8.com/fluency/96/password-window.png" alt="Password manager icon" width="72" /></a>
-      <br /><a href="https://github.com/Lintshiwe/PasswordManager"><strong>PasswordManager</strong></a>
-      <br /><sub>Python · Tkinter · SQLite</sub>
-      <br /><sub>Encrypted desktop vault reacting to browser activity with respectful UX.</sub>
-    </td>
-    <td align="center" width="220">
-      <a href="https://github.com/Lintshiwe/CourseCampus"><img src="https://img.icons8.com/fluency/96/online-learning.png" alt="Course platform icon" width="72" /></a>
-      <br /><a href="https://github.com/Lintshiwe/CourseCampus"><strong>CourseCampus</strong></a>
-      <br /><sub>Next.js · Tailwind · Firebase</sub>
-      <br /><sub>Hybrid e-learning authoring with offline-friendly delivery.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="220">
-      <a href="https://github.com/Lintshiwe/Salon"><img src="https://img.icons8.com/fluency/96/barbershop.png" alt="Salon icon" width="72" /></a>
-      <br /><a href="https://github.com/Lintshiwe/Salon"><strong>Salon</strong></a>
-      <br /><sub>React · TypeScript · Tailwind</sub>
-      <br /><sub>Production-ready appointment starter engineered for scale.</sub>
-    </td>
-    <td align="center" width="220">
-      <a href="https://github.com/Lintshiwe/Slade_MITM"><img src="https://img.icons8.com/fluency/96/data-encryption.png" alt="MITM proxy icon" width="72" /></a>
-      <br /><a href="https://github.com/Lintshiwe/Slade_MITM"><strong>Slade_MITM</strong></a>
-      <br /><sub>Python · mitmproxy</sub>
-      <br /><sub>Ethical proxy for analyzing network flows and payload behavior.</sub>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/Lintshiwe/PasswordManager">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lintshiwe&repo=PasswordManager&theme=transparent&title_color=00ffff&text_color=FFFFFF&icon_color=8b5cf6&bg_color=00000000&hide_border=true" alt="PasswordManager repository card" />
+</a>
+<a href="https://github.com/Lintshiwe/CourseCampus">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lintshiwe&repo=CourseCampus&theme=transparent&title_color=00ffff&text_color=FFFFFF&icon_color=8b5cf6&bg_color=00000000&hide_border=true" alt="CourseCampus repository card" />
+</a>
+
+</div>
+
+<div align="center">
+
+<a href="https://github.com/Lintshiwe/Salon">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lintshiwe&repo=Salon&theme=transparent&title_color=00ffff&text_color=FFFFFF&icon_color=8b5cf6&bg_color=00000000&hide_border=true" alt="Salon repository card" />
+</a>
+<a href="https://github.com/Lintshiwe/Slade_MITM">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lintshiwe&repo=Slade_MITM&theme=transparent&title_color=00ffff&text_color=FFFFFF&icon_color=8b5cf6&bg_color=00000000&hide_border=true" alt="Slade_MITM repository card" />
+</a>
 
 </div>
 
