@@ -67,7 +67,7 @@ Live telemetry from the profile, stacked with visual cues for reach, followers, 
 ![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=Lintshiwe&theme=transparent&ring=8b5cf6&fire=f97316&currStreakLabel=00ffff)
 
 **Milestones**  
-![GitHub profile trophies](https://github-profile-trophy.vercel.app/?username=Lintshiwe&theme=algolia&no-frame=true&no-bg=true&margin-w=10)
+![GitHub profile trophies](https://github-profile-trophy.vercel.app/?username=Lintshiwe&theme=algolia&margin-w=10&margin-h=10&column=4&row=1)
 
 **Activity Map**  
 ![GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Lintshiwe&theme=react-dark&hide_border=true&area=true&custom_title=Lintshiwe%27s%20Activity%20Heatmap)
