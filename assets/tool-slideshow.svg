@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="760" height="160" viewBox="0 0 760 160" role="img" aria-labelledby="title desc">
+  <title id="title">Looping showcase of Lintshiwe Ntoampi's toolkit</title>
+  <desc id="desc">Animated carousel cycling through the primary stacks and tools used by Lintshiwe Ntoampi.</desc>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171F2E" />
+      <stop offset="100%" stop-color="#0B0F18" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style><![CDATA[
+      .frame {
+        fill: url(#grad);
+        stroke: #2F3C66;
+        stroke-width: 2.4px;
+        rx: 28px;
+        ry: 28px;
+        filter: url(#glow);
+      }
+      .headline {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        fill: #E5ECFF;
+      }
+      .subline {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 16px;
+        fill: #8FA2D6;
+      }
+      .slide {
+        opacity: 0;
+        animation: fade 24s infinite ease-in-out;
+      }
+      .slide:nth-of-type(1) { animation-delay: 0s; }
+      .slide:nth-of-type(2) { animation-delay: 6s; }
+      .slide:nth-of-type(3) { animation-delay: 12s; }
+      .slide:nth-of-type(4) { animation-delay: 18s; }
+      @keyframes fade {
+        0%, 12% { opacity: 0; }
+        16%, 28% { opacity: 1; }
+        32%, 100% { opacity: 0; }
+      }
+    ]]></style>
+  </defs>
+  <rect class="frame" x="12" y="12" width="736" height="136" rx="28" ry="28" />
+  <text class="headline" x="40" y="58">Signature Toolkit</text>
+  <text class="subline" x="40" y="88">Stacks on rotation · Auto-loop</text>
+  <g class="slide">
+    <image x="360" y="34" width="320" height="48" xlink:href="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,figma" href="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,figma" />
+    <text class="subline" x="360" y="125">Design-led frontends with motion systems</text>
+  </g>
+  <g class="slide">
+    <image x="360" y="34" width="320" height="48" xlink:href="https://skillicons.dev/icons?i=nodejs,python,java,express,nest" href="https://skillicons.dev/icons?i=nodejs,python,java,express,nest" />
+    <text class="subline" x="360" y="125">APIs, real-time comms, and automation services</text>
+  </g>
+  <g class="slide">
+    <image x="360" y="34" width="320" height="48" xlink:href="https://skillicons.dev/icons?i=firebase,sqlite,postgres,redis,supabase" href="https://skillicons.dev/icons?i=firebase,sqlite,postgres,redis,supabase" />
+    <text class="subline" x="360" y="125">Operational data layers and caching strategies</text>
+  </g>
+  <g class="slide">
+    <image x="360" y="34" width="320" height="48" xlink:href="https://skillicons.dev/icons?i=docker,ansible,linux,git,githubactions" href="https://skillicons.dev/icons?i=docker,ansible,linux,git,githubactions" />
+    <text class="subline" x="360" y="125">Delivery, automation, and observability tooling</text>
+  </g>
+</svg>

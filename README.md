@@ -109,6 +109,8 @@
 	</tr>
 </table>
 
+![Animated slideshow cycling through toolkit icons](https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/tool-slideshow.svg)
+
 ![Tech stack icons](https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode,docker,bash,ansible)
 
 </div>
