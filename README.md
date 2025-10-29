@@ -60,14 +60,18 @@
 <h2>Connect</h2>
 <p>Let’s collaborate on cinematic UI, secure engineering, and community labs.</p>
 <p>
-  <a href="https://linkedin.com/in/lintshiwe">LinkedIn</a> ·
-  <a href="https://twitter.com/Lintshiwe">Twitter</a> ·
-  <a href="mailto:ntoampilp@gmail.com">Email</a> ·
-  <a href="https://github.com/Lintshiwe">GitHub</a>
+  <a href="https://linkedin.com/in/lintshiwe"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" alt="LinkedIn" width="40" height="40" /></a>&nbsp;
+  <a href="https://twitter.com/Lintshiwe"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" alt="Twitter" width="40" height="40" /></a>&nbsp;
+  <a href="mailto:ntoampilp@gmail.com"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gmail.svg" alt="Email" width="40" height="40" /></a>&nbsp;
+  <a href="https://github.com/Lintshiwe"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" alt="GitHub" width="40" height="40" /></a>
 </p>
 
 <hr />
 
-✨ Slade the Deceiver ✨
+<p>
+  <img src="https://avatars.githubusercontent.com/u/104380596?v=4" alt="Lintshiwe avatar" width="28" style="border-radius:50%;" />
+  Slade the Deceiver
+  <img src="https://avatars.githubusercontent.com/u/104380596?v=4" alt="Lintshiwe avatar" width="28" style="border-radius:50%;" />
+</p>
 
 </div>
