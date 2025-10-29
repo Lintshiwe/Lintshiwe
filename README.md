@@ -60,10 +60,10 @@
 <h2>Connect</h2>
 <p>Let’s collaborate on cinematic UI, secure engineering, and community labs.</p>
 <p>
-  <a href="https://linkedin.com/in/lintshiwe"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="LinkedIn" width="40" height="40" /></a>&nbsp;
-  <a href="https://twitter.com/Lintshiwe"><img src="https://cdn.simpleicons.org/x/FFFFFF" alt="X (Twitter)" width="40" height="40" style="background-color:#000000;border-radius:8px;padding:4px;" /></a>&nbsp;
-  <a href="mailto:ntoampilp@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" width="40" height="40" /></a>&nbsp;
-  <a href="https://github.com/Lintshiwe"><img src="https://cdn.simpleicons.org/github/FFFFFF" alt="GitHub" width="40" height="40" style="background-color:#000000;border-radius:50%;padding:6px;" /></a>
+  <a href="https://linkedin.com/in/lintshiwe"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="44" height="44" /></a>&nbsp;
+  <a href="https://twitter.com/Lintshiwe"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/x.svg" alt="X (Twitter)" width="44" height="44" /></a>&nbsp;
+  <a href="mailto:ntoampilp@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" width="44" height="44" /></a>&nbsp;
+  <a href="https://github.com/Lintshiwe"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="44" height="44" /></a>
 </p>
 
 <hr />
