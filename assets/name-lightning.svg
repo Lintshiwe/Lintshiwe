@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+  <title id="title">Animated lightning marquee for Lintshiwe Ntoampi</title>
+  <desc id="desc">Neon lettering surrounded by animated lightning bolts to highlight the name Lintshiwe Ntoampi.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1124" />
+      <stop offset="50%" stop-color="#101C3A" />
+      <stop offset="100%" stop-color="#060912" />
+    </linearGradient>
+    <filter id="glow-text" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-bolt" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="textStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#74F9FF" />
+      <stop offset="50%" stop-color="#B693FF" />
+      <stop offset="100%" stop-color="#FFB7F8" />
+    </linearGradient>
+    <style><![CDATA[
+      @keyframes flicker {
+        0% { opacity: 0.8; }
+        8% { opacity: 1; }
+        15% { opacity: 0.6; }
+        22% { opacity: 1; }
+        35% { opacity: 0.7; }
+        45% { opacity: 1; }
+        55% { opacity: 0.75; }
+        65% { opacity: 1; }
+        100% { opacity: 0.85; }
+      }
+      @keyframes dash {
+        0% { stroke-dasharray: 4 14; stroke-dashoffset: 0; }
+        50% { stroke-dasharray: 12 16; stroke-dashoffset: -18; }
+        100% { stroke-dasharray: 4 14; stroke-dashoffset: -36; }
+      }
+      .neon {
+        font-family: 'Agency FB', 'Orbitron', 'Segoe UI', sans-serif;
+        font-size: 72px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        fill: none;
+        stroke: url(#textStroke);
+        stroke-width: 2.5;
+        paint-order: stroke;
+        animation: flicker 3.8s ease-in-out infinite;
+      }
+      .bolt {
+        fill: none;
+        stroke: #6EF7FF;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 6 18;
+        animation: dash 2.8s linear infinite;
+      }
+      .bolt-secondary {
+        stroke: #9E7BFF;
+        stroke-width: 3;
+        animation-duration: 3.2s;
+        animation-direction: reverse;
+      }
+    ]]></style>
+  </defs>
+  <rect x="0" y="0" width="900" height="220" rx="32" ry="32" fill="url(#bg)" />
+  <rect x="12" y="12" width="876" height="196" rx="28" ry="28" fill="none" stroke="#18254C" stroke-width="2.5" opacity="0.65" />
+  <g filter="url(#glow-text)">
+    <text class="neon" x="450" y="120" text-anchor="middle">LINTSHIWE NTOAMPI</text>
+  </g>
+  <g filter="url(#glow-bolt)">
+    <path class="bolt" d="M110 66 L140 82 L120 96 L150 110 L128 122" />
+    <path class="bolt" d="M790 66 L760 84 L780 100 L752 112 L772 128" />
+    <path class="bolt-secondary" d="M190 150 L210 132 L198 114 L228 102 L220 84" />
+    <path class="bolt-secondary" d="M700 150 L682 132 L698 118 L668 104 L680 86" />
+  </g>
+</svg>

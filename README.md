@@ -1,4 +1,6 @@
-# Lintshiwe Ntoampi 👨🏾‍💻
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/name-lightning.svg" alt="Animated lightning marquee reading Lintshiwe Ntoampi surrounded by electric bolts" width="760" />
+</h1>
 
 <div align="center">
 
