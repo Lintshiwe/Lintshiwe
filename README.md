@@ -31,7 +31,7 @@
   <img src="https://img.shields.io/github/stars/Lintshiwe?label=Stars&style=for-the-badge&color=f97316" alt="GitHub stars badge" />
 </p>
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,python,java,nodejs,docker,linux,git,githubactions,postgres" alt="Core stack icons" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,python,java,nodejs,docker,linux,bash,git,githubactions,postgres,vagrant" alt="Core stack icons" />
 </p>
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=Lintshiwe&show_icons=true&theme=transparent&title_color=00ffff&text_color=ffffff&icon_color=8b5cf6&hide_border=true&bg_color=00000000" alt="GitHub stats for Lintshiwe" />
@@ -60,18 +60,18 @@
 <h2>Connect</h2>
 <p>Let’s collaborate on cinematic UI, secure engineering, and community labs.</p>
 <p>
-  <a href="https://linkedin.com/in/lintshiwe"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" alt="LinkedIn" width="40" height="40" /></a>&nbsp;
-  <a href="https://twitter.com/Lintshiwe"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" alt="Twitter" width="40" height="40" /></a>&nbsp;
-  <a href="mailto:ntoampilp@gmail.com"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gmail.svg" alt="Email" width="40" height="40" /></a>&nbsp;
-  <a href="https://github.com/Lintshiwe"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" alt="GitHub" width="40" height="40" /></a>
+  <a href="https://linkedin.com/in/lintshiwe"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="LinkedIn" width="40" height="40" /></a>&nbsp;
+  <a href="https://twitter.com/Lintshiwe"><img src="https://cdn.simpleicons.org/x/FFFFFF" alt="X (Twitter)" width="40" height="40" style="background-color:#000000;border-radius:8px;padding:4px;" /></a>&nbsp;
+  <a href="mailto:ntoampilp@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" width="40" height="40" /></a>&nbsp;
+  <a href="https://github.com/Lintshiwe"><img src="https://cdn.simpleicons.org/github/FFFFFF" alt="GitHub" width="40" height="40" style="background-color:#000000;border-radius:50%;padding:6px;" /></a>
 </p>
 
 <hr />
 
 <p>
-  <img src="https://avatars.githubusercontent.com/u/104380596?v=4" alt="Lintshiwe avatar" width="28" style="border-radius:50%;" />
+  <img src="https://avatars.githubusercontent.com/u/104380596?v=4" alt="Lintshiwe avatar" width="20" style="border-radius:50%;" />
   Slade the Deceiver
-  <img src="https://avatars.githubusercontent.com/u/104380596?v=4" alt="Lintshiwe avatar" width="28" style="border-radius:50%;" />
+  <img src="https://avatars.githubusercontent.com/u/104380596?v=4" alt="Lintshiwe avatar" width="20" style="border-radius:50%;" />
 </p>
 
 </div>
