@@ -98,24 +98,19 @@
 
 <div align="center">
 
-<table>
-	<tr>
-		<td align="center"><img src="https://img.icons8.com/color/48/react-native.png" alt="Frontend icon" /><br /><strong>Frontend</strong><br /><sub>React · Next.js · TypeScript · Tailwind CSS</sub></td>
-		<td align="center"><img src="https://img.icons8.com/color/48/nodejs.png" alt="Backend icon" /><br /><strong>Backend</strong><br /><sub>Node.js · Python · Java · REST · WebSockets</sub></td>
-		<td align="center"><img src="https://img.icons8.com/color/48/database.png" alt="Data icon" /><br /><strong>Data</strong><br /><sub>Firebase · SQLite · Local-first storage experiments</sub></td>
-	</tr>
-	<tr>
-		<td align="center"><img src="https://img.icons8.com/color/48/docker.png" alt="DevOps icon" /><br /><strong>DevOps</strong><br /><sub>Docker · Ansible · Linux · Red Hat</sub></td>
-		<td align="center"><img src="https://img.icons8.com/color/48/automation.png" alt="Automation icon" /><br /><strong>Automation</strong><br /><sub>Bash · CI pipelines · Observability dashboards</sub></td>
-		<td align="center"><img src="https://img.icons8.com/fluency/48/light-on.png" alt="UX research icon" /><br /><strong>UX Research</strong><br /><sub>Design systems · motion studies · user testing</sub></td>
-	</tr>
-</table>
+![Signature toolkit slideshow](https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/tool-slider.svg)
 
-![Animated slideshow cycling through toolkit icons](https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/tool-slideshow.svg)
-
-![Tech stack icons](https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode,docker,bash,ansible)
+![Continuous toolkit ribbon](https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/tool-ribbon.svg)
 
 </div>
+
+### Focus Areas
+
+- **Frontend Craft:** React, Next.js, TypeScript, Tailwind, motion-first UI systems.
+- **Backend Services:** Node.js, Python, Java, event-driven APIs, sockets.
+- **Data & Storage:** Firebase, SQLite, Postgres, Redis, local-first experiments.
+- **Automation & Ops:** Docker, Bash, Ansible, GitHub Actions, Red Hat workflows.
+- **Research & UX:** Interface labs, usability testing, secure-by-design patterns.
 
 ---
 

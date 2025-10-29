@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="120" viewBox="0 0 760 120" role="img" aria-labelledby="title desc">
+  <title id="title">Toolkit technology ribbon</title>
+  <desc id="desc">Continuously scrolling ribbon showing Lintshiwe Ntoampi's core technologies.</desc>
+  <defs>
+    <linearGradient id="ribbonBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#101933" />
+      <stop offset="50%" stop-color="#0D1428" />
+      <stop offset="100%" stop-color="#070B14" />
+    </linearGradient>
+    <filter id="ribbonGlow" x="-30%" y="-40%" width="160%" height="180%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style><![CDATA[
+      svg { font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; }
+      .shell { fill: url(#ribbonBg); stroke: #243155; stroke-width: 2px; rx: 24px; ry: 24px; filter: url(#ribbonGlow); }
+      .token rect { width: 76px; height: 76px; rx: 20px; ry: 20px; }
+      .token text { font-size: 22px; font-weight: 600; fill: #0B1122; text-anchor: middle; dominant-baseline: middle; }
+      .token text.light { fill: #F2F5FF; }
+      .ts { fill: #2F74C0; }
+      .js { fill: #EFD81D; }
+      .py { fill: #3474A5; }
+      .java { fill: #EA4F34; }
+      .react { fill: #62DAFB; }
+      .next { fill: #FFFFFF; }
+      .node { fill: #7DC528; }
+      .tailwind { fill: #38BDF8; }
+      .sqlite { fill: #3F92D2; }
+      .firebase { fill: #FFCB2B; }
+      .docker { fill: #0DB7ED; }
+      .ansible { fill: #111111; }
+      .linux { fill: #F8C200; }
+      .bash { fill: #2C3E50; }
+      .gha { fill: #24292E; }
+    ]]></style>
+  </defs>
+  <rect class="shell" x="12" y="12" width="736" height="96" rx="24" ry="24" />
+  <clipPath id="clip">
+    <rect x="12" y="12" width="736" height="96" rx="24" ry="24" />
+  </clipPath>
+  <g clip-path="url(#clip)">
+    <g id="track" transform="translate(12,22)">
+      <g class="set">
+        <g class="token ts" transform="translate(0,0)"><rect /><text x="38" y="38" class="light">TS</text></g>
+        <g class="token js" transform="translate(96,0)"><rect /><text x="38" y="38">JS</text></g>
+        <g class="token py" transform="translate(192,0)"><rect /><text x="38" y="38" class="light">Py</text></g>
+        <g class="token java" transform="translate(288,0)"><rect /><text x="38" y="38" class="light">Java</text></g>
+        <g class="token react" transform="translate(384,0)"><rect /><text x="38" y="38" class="light">React</text></g>
+        <g class="token next" transform="translate(480,0)"><rect /><text x="38" y="38">Next</text></g>
+        <g class="token tailwind" transform="translate(576,0)"><rect /><text x="38" y="38" class="light">TW</text></g>
+        <g class="token node" transform="translate(672,0)"><rect /><text x="38" y="38" class="light">Node</text></g>
+        <g class="token sqlite" transform="translate(768,0)"><rect /><text x="38" y="38" class="light">SQL</text></g>
+        <g class="token firebase" transform="translate(864,0)"><rect /><text x="38" y="38" class="light">FB</text></g>
+        <g class="token docker" transform="translate(960,0)"><rect /><text x="38" y="38" class="light">Docker</text></g>
+        <g class="token bash" transform="translate(1056,0)"><rect /><text x="38" y="38" class="light">Bash</text></g>
+        <g class="token ansible" transform="translate(1152,0)"><rect /><text x="38" y="38" class="light">A</text></g>
+        <g class="token linux" transform="translate(1248,0)"><rect /><text x="38" y="38">🐧</text></g>
+        <g class="token gha" transform="translate(1344,0)"><rect /><text x="38" y="38" class="light">GHA</text></g>
+      </g>
+      <g class="set" transform="translate(1344,0)">
+        <g class="token ts" transform="translate(0,0)"><rect /><text x="38" y="38" class="light">TS</text></g>
+        <g class="token js" transform="translate(96,0)"><rect /><text x="38" y="38">JS</text></g>
+        <g class="token py" transform="translate(192,0)"><rect /><text x="38" y="38" class="light">Py</text></g>
+        <g class="token java" transform="translate(288,0)"><rect /><text x="38" y="38" class="light">Java</text></g>
+        <g class="token react" transform="translate(384,0)"><rect /><text x="38" y="38" class="light">React</text></g>
+        <g class="token next" transform="translate(480,0)"><rect /><text x="38" y="38">Next</text></g>
+        <g class="token tailwind" transform="translate(576,0)"><rect /><text x="38" y="38" class="light">TW</text></g>
+        <g class="token node" transform="translate(672,0)"><rect /><text x="38" y="38" class="light">Node</text></g>
+        <g class="token sqlite" transform="translate(768,0)"><rect /><text x="38" y="38" class="light">SQL</text></g>
+        <g class="token firebase" transform="translate(864,0)"><rect /><text x="38" y="38" class="light">FB</text></g>
+        <g class="token docker" transform="translate(960,0)"><rect /><text x="38" y="38" class="light">Docker</text></g>
+        <g class="token bash" transform="translate(1056,0)"><rect /><text x="38" y="38" class="light">Bash</text></g>
+        <g class="token ansible" transform="translate(1152,0)"><rect /><text x="38" y="38" class="light">A</text></g>
+        <g class="token linux" transform="translate(1248,0)"><rect /><text x="38" y="38">🐧</text></g>
+        <g class="token gha" transform="translate(1344,0)"><rect /><text x="38" y="38" class="light">GHA</text></g>
+      </g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1344 0" dur="24s" repeatCount="indefinite" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="200" viewBox="0 0 760 200" role="img" aria-labelledby="title desc">
+  <title id="title">Signature toolkit slideshow</title>
+  <desc id="desc">Animated carousel presenting the rotating technology stacks used by Lintshiwe Ntoampi.</desc>
+  <defs>
+    <linearGradient id="backdrop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B" />
+      <stop offset="60%" stop-color="#111C3D" />
+      <stop offset="100%" stop-color="#070A14" />
+    </linearGradient>
+    <filter id="cardGlow" x="-30%" y="-40%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="14" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style><![CDATA[
+      svg { font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; }
+      .frame { fill: url(#backdrop); stroke: #27345C; stroke-width: 2.2px; rx: 28px; ry: 28px; filter: url(#cardGlow); }
+      .headline { font-size: 26px; font-weight: 600; fill: #F2F5FF; letter-spacing: 1.2px; }
+      .subline { font-size: 15px; fill: #8DA4D8; letter-spacing: 1px; }
+      .slide { opacity: 0; animation: fade 24s infinite ease-in-out; }
+      .slide:nth-of-type(1) { animation-delay: 0s; }
+      .slide:nth-of-type(2) { animation-delay: 6s; }
+      .slide:nth-of-type(3) { animation-delay: 12s; }
+      .slide:nth-of-type(4) { animation-delay: 18s; }
+      @keyframes fade {
+        0%, 12% { opacity: 0; }
+        16%, 28% { opacity: 1; }
+        32%, 100% { opacity: 0; }
+      }
+      .token rect { width: 112px; height: 62px; rx: 18px; ry: 18px; }
+      .token text { font-size: 18px; font-weight: 600; fill: #0B1122; dominant-baseline: middle; text-anchor: middle; }
+      .ts { fill: #2F74C0; }
+      .js { fill: #EFD81D; }
+      .py { fill: #3573A5; }
+      .java { fill: #EA5034; }
+      .react { fill: #62DAFB; }
+      .next { fill: #FFFFFF; }
+      .tailwind { fill: #38BDF8; }
+      .figma { fill: #A259FF; }
+      .node { fill: #7DC528; }
+      .express { fill: #F5F5F5; }
+      .nest { fill: #E0234E; }
+      .graphql { fill: #E535AB; }
+      .firebase { fill: #FFCB2B; }
+      .sqlite { fill: #3F92D2; }
+      .postgres { fill: #336791; }
+      .redis { fill: #D82C20; }
+      .docker { fill: #0DB7ED; }
+      .ansible { fill: #000000; }
+      .linux { fill: #F8C200; }
+      .gha { fill: #24292E; }
+      .bash { fill: #2C3E50; }
+      .token text.light { fill: #F2F5FF; }
+    ]]></style>
+  </defs>
+  <rect class="frame" x="12" y="12" width="736" height="176" rx="28" ry="28" />
+  <text class="headline" x="48" y="70">Signature Toolkit</text>
+  <text class="subline" x="48" y="98">Stacks on rotation · Auto-loop</text>
+  <g class="slide">
+    <g class="token ts" transform="translate(260,44)"><rect /><text x="56" y="31" class="light">TypeScript</text></g>
+    <g class="token js" transform="translate(384,44)"><rect /><text x="56" y="31">JavaScript</text></g>
+    <g class="token react" transform="translate(508,44)"><rect /><text x="56" y="31" class="light">React</text></g>
+    <g class="token tailwind" transform="translate(632,44)"><rect /><text x="56" y="31" class="light">Tailwind</text></g>
+    <text class="subline" x="260" y="158">Design-led frontends with motion systems</text>
+  </g>
+  <g class="slide">
+    <g class="token next" transform="translate(260,44)"><rect /><text x="56" y="31">Next.js</text></g>
+    <g class="token node" transform="translate(384,44)"><rect /><text x="56" y="31" class="light">Node</text></g>
+    <g class="token express" transform="translate(508,44)"><rect /><text x="56" y="31">Express</text></g>
+    <g class="token nest" transform="translate(632,44)"><rect /><text x="56" y="31" class="light">NestJS</text></g>
+    <text class="subline" x="260" y="158">APIs, real-time comms, and automation services</text>
+  </g>
+  <g class="slide">
+    <g class="token firebase" transform="translate(260,44)"><rect /><text x="56" y="31">Firebase</text></g>
+    <g class="token sqlite" transform="translate(384,44)"><rect /><text x="56" y="31" class="light">SQLite</text></g>
+    <g class="token postgres" transform="translate(508,44)"><rect /><text x="56" y="31" class="light">Postgres</text></g>
+    <g class="token redis" transform="translate(632,44)"><rect /><text x="56" y="31" class="light">Redis</text></g>
+    <text class="subline" x="260" y="158">Operational data layers and caching strategies</text>
+  </g>
+  <g class="slide">
+    <g class="token docker" transform="translate(260,44)"><rect /><text x="56" y="31" class="light">Docker</text></g>
+    <g class="token bash" transform="translate(384,44)"><rect /><text x="56" y="31" class="light">Bash</text></g>
+    <g class="token ansible" transform="translate(508,44)"><rect /><text x="56" y="31" class="light">Ansible</text></g>
+    <g class="token gha" transform="translate(632,44)"><rect /><text x="56" y="31" class="light">GH Actions</text></g>
+    <text class="subline" x="260" y="158">Delivery, automation, and observability tooling</text>
+  </g>
+</svg>
