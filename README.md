@@ -98,17 +98,6 @@
 
 <div align="center">
 
-<a href="https://github.com/Lintshiwe/PasswordManager">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lintshiwe&repo=PasswordManager&theme=transparent&title_color=00ffff&text_color=FFFFFF&icon_color=8b5cf6&bg_color=00000000&hide_border=true" alt="PasswordManager repository card" />
-</a>
-<a href="https://github.com/Lintshiwe/CourseCampus">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lintshiwe&repo=CourseCampus&theme=transparent&title_color=00ffff&text_color=FFFFFF&icon_color=8b5cf6&bg_color=00000000&hide_border=true" alt="CourseCampus repository card" />
-</a>
-
-</div>
-
-<div align="center">
-
 <a href="https://github.com/Lintshiwe/Salon">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lintshiwe&repo=Salon&theme=transparent&title_color=00ffff&text_color=FFFFFF&icon_color=8b5cf6&bg_color=00000000&hide_border=true" alt="Salon repository card" />
 </a>
