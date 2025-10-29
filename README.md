@@ -59,6 +59,7 @@ Learning sprints and community recognition via Holopin.
 ## Connect
 
 Let’s collaborate on cinematic UI, secure engineering, and community labs.
+
 [![LinkedIn](https://img.icons8.com/color/48/linkedin.png)](https://linkedin.com/in/lintshiwe)&nbsp;&nbsp;
 [![X](https://img.icons8.com/ios-filled/50/ffffff/twitterx--v1.png)](https://twitter.com/Lintshiwe)&nbsp;&nbsp;
 [![Email](https://img.icons8.com/color/48/gmail-new.png)](mailto:ntoampilp@gmail.com)&nbsp;&nbsp;
