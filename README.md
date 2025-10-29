@@ -12,93 +12,85 @@
 <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/slade-logo.png" alt="Lintshiwe Ntoampi monogram" width="200" />
 
 <p>
-	<a href="https://github.com/Lintshiwe?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Active-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="Open source badge" /></a>
-	<a href="https://linkedin.com/in/lintshiwe"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn badge" /></a>
-	<a href="mailto:ntoampilp@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-FF3D71?style=for-the-badge&logo=gmail&logoColor=white" alt="Email badge" /></a>
+  <a href="https://github.com/Lintshiwe?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-Active-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="Open source badge" /></a>
+  <a href="https://linkedin.com/in/lintshiwe"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn badge" /></a>
+  <a href="mailto:ntoampilp@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-FF3D71?style=for-the-badge&logo=gmail&logoColor=white" alt="Email badge" /></a>
 </p>
 
 </div>
 
 ---
 
-<h2 align="center">Signature Snapshot</h2>
+<h2 align="center">Experience Control Room</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/snapshot-panel.svg" alt="Animated snapshot panel highlighting full-stack craft, liquid glass UI, secure engineering, devops mindset, terminal R&amp;D, and community work" width="900" />
+  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/gui-board.svg" alt="Unified dashboard showing snapshot, current focus, and featured work" width="900" />
 </p>
 
 ---
 
-<h2 align="center">Current Focus</h2>
+<h2 align="center">Toolkit Console</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/focus-panel.svg" alt="Animated focus panel showing shipping, learning, and collaborating priorities" width="900" />
+  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/tool-slider.svg" alt="Animated toolkit carousel" width="900" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/tool-ribbon.svg" alt="Continuous toolkit ribbon" width="900" />
 </p>
 
 ---
 
-<h2 align="center">Toolkit</h2>
-
-<div align="center">
-
-![Signature toolkit slideshow](https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/tool-slider.svg)
-
-![Continuous toolkit ribbon](https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/tool-ribbon.svg)
-
-</div>
-
-### Focus Areas
-
-- **Frontend Craft:** React, Next.js, TypeScript, Tailwind, motion-first UI systems.
-- **Backend Services:** Node.js, Python, Java, event-driven APIs, sockets.
-- **Data & Storage:** Firebase, SQLite, Postgres, Redis, local-first experiments.
-- **Automation & Ops:** Docker, Bash, Ansible, GitHub Actions, Red Hat workflows.
-- **Research & UX:** Interface labs, usability testing, secure-by-design patterns.
-
----
-
-<h2 align="center">Featured Work</h2>
+<h2 align="center">Real-Time Signals</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/projects-panel.svg" alt="Animated featured work panel highlighting PasswordManager, CourseCampus, Salon, and Slade_MITM" width="900" />
+  <img src="https://komarev.com/ghpvc/?username=Lintshiwe&style=for-the-badge&label=Profile%20Views&color=0ea5e9" alt="Profile views counter" />
+  <img src="https://img.shields.io/github/followers/Lintshiwe?label=Followers&style=for-the-badge&color=9333ea" alt="GitHub followers badge" />
+  <img src="https://img.shields.io/github/stars/Lintshiwe?label=Stars&style=for-the-badge&color=f97316" alt="GitHub stars badge" />
 </p>
 
----
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,python,java,nodejs,docker,linux,git,githubactions,postgres" alt="Skill icons for React, Next.js, TypeScript, Tailwind, Python, Java, Node.js, Docker, Linux, Git, GitHub Actions, Postgres" />
+</p>
 
-<h2 align="center">Stats &amp; Activity</h2>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Lintshiwe&show_icons=true&theme=transparent&title_color=00ffff&text_color=ffffff&icon_color=8b5cf6&hide_border=true&bg_color=00000000" alt="GitHub stats for Lintshiwe" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=transparent&title_color=8b5cf6&text_color=ffffff&hide_border=true&bg_color=00000000" alt="Top languages for Lintshiwe" />
+</p>
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lintshiwe&theme=transparent&ring=8b5cf6&fire=f97316&currStreakLabel=00ffff" alt="GitHub streak stats" />
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Lintshiwe&show_icons=true&theme=transparent&title_color=00ffff&text_color=ffffff&icon_color=8b5cf6&hide_border=true&bg_color=00000000" alt="GitHub stats for Lintshiwe" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=transparent&title_color=8b5cf6&text_color=ffffff&hide_border=true&bg_color=00000000" alt="Top languages for Lintshiwe" />
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Lintshiwe&theme=algolia&no-frame=true&no-bg=true&margin-w=10" alt="GitHub profile trophies" />
+</p>
 
-</div>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lintshiwe&theme=react-dark&hide_border=true&area=true&custom_title=Lintshiwe%27s%20Activity%20Heatmap" alt="GitHub activity graph" />
+</p>
 
 ---
 
 <h2 align="center">Digital Badges</h2>
 
-<div align="center">
-
-[![An image of @lintshiwe's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/lintshiwe)](https://holopin.io/@lintshiwe)
-
-</div>
+<p align="center">
+  <a href="https://holopin.io/@lintshiwe"><img src="https://holopin.me/lintshiwe" alt="Lintshiwe Holopin badge board" /></a>
+</p>
 
 ---
 
 <h2 align="center">Connect</h2>
 
-<div align="center">
-
-<a href="https://linkedin.com/in/lintshiwe"><img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" /></a>
-<a href="https://twitter.com/Lintshiwe"><img src="https://img.icons8.com/color/48/twitter-circled.png" alt="Twitter" /></a>
-<a href="mailto:ntoampilp@gmail.com"><img src="https://img.icons8.com/color/48/gmail-new.png" alt="Email" /></a>
-<a href="https://github.com/Lintshiwe"><img src="https://img.icons8.com/fluency/48/github.png" alt="GitHub" /></a>
-
-</div>
+<p align="center">
+  <a href="https://linkedin.com/in/lintshiwe"><img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" /></a>
+  <a href="https://twitter.com/Lintshiwe"><img src="https://img.icons8.com/color/48/twitter-circled.png" alt="Twitter" /></a>
+  <a href="mailto:ntoampilp@gmail.com"><img src="https://img.icons8.com/color/48/gmail-new.png" alt="Email" /></a>
+  <a href="https://github.com/Lintshiwe"><img src="https://img.icons8.com/fluency/48/github.png" alt="GitHub" /></a>
+</p>
 
 ---
 
 <div align="center">
-	✨ Slade the Deceiver ✨
+  ✨ Slade the Deceiver ✨
 </div>
