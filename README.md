@@ -23,74 +23,17 @@
 
 <h2 align="center">Signature Snapshot</h2>
 
-<div align="center">
-
-<table>
-	<tr>
-		<td align="center">
-			<img src="https://img.icons8.com/fluency/48/laptop-coding.png" alt="Full-stack icon" />
-			<br /><strong>Full-Stack Craft</strong>
-			<br /><sub>End-to-end product stories with responsive design systems.</sub>
-		</td>
-		<td align="center">
-			<img src="https://img.icons8.com/fluency/48/3d-select.png" alt="Liquid glass icon" />
-			<br /><strong>Liquid Glass UI</strong>
-			<br /><sub>Motion-led prototypes inspired by futuristic interfaces.</sub>
-		</td>
-		<td align="center">
-			<img src="https://img.icons8.com/fluency/48/cyber-security.png" alt="Security icon" />
-			<br /><strong>Secure Engineering</strong>
-			<br /><sub>Local-first encryption research blended with offensive insights.</sub>
-		</td>
-	</tr>
-	<tr>
-		<td align="center">
-			<img src="https://img.icons8.com/fluency/48/cloud-devops.png" alt="DevOps icon" />
-			<br /><strong>DevOps Mindset</strong>
-			<br /><sub>Red Hat administration, observability, and automation pipelines.</sub>
-		</td>
-		<td align="center">
-			<img src="https://img.icons8.com/fluency/48/console.png" alt="Terminal icon" />
-			<br /><strong>Terminal R&amp;D</strong>
-			<br /><sub>Browser-based terminals and OS-level scripting adventures.</sub>
-		</td>
-		<td align="center">
-			<img src="https://img.icons8.com/fluency/48/conference-call.png" alt="Community icon" />
-			<br /><strong>Community Driven</strong>
-			<br /><sub>Mentoring peers through UI, security, and Linux practice labs.</sub>
-		</td>
-	</tr>
-</table>
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/snapshot-panel.svg" alt="Animated snapshot panel highlighting full-stack craft, liquid glass UI, secure engineering, devops mindset, terminal R&amp;D, and community work" width="900" />
+</p>
 
 ---
 
 <h2 align="center">Current Focus</h2>
 
-<div align="center">
-
-<table>
-	<tr>
-		<td align="center" width="33%">
-			<img src="https://img.icons8.com/fluency/48/product.png" alt="Product shipping icon" />
-			<br /><strong>Shipping</strong>
-			<br /><sub>Salon starter kit with theme tokens, booking flows, and deployment automation.</sub>
-		</td>
-		<td align="center" width="33%">
-			<img src="https://img.icons8.com/fluency/48/mind-map.png" alt="Learning icon" />
-			<br /><strong>Learning</strong>
-			<br /><sub>Advanced MITM payload inspection with Python &amp; mitmproxy.</sub>
-		</td>
-		<td align="center" width="33%">
-			<img src="https://img.icons8.com/fluency/48/handshake.png" alt="Collaboration icon" />
-			<br /><strong>Collaborating</strong>
-			<br /><sub>Open to UI-rich security tooling and education platform partnerships.</sub>
-		</td>
-	</tr>
-</table>
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/focus-panel.svg" alt="Animated focus panel showing shipping, learning, and collaborating priorities" width="900" />
+</p>
 
 ---
 
@@ -116,58 +59,9 @@
 
 <h2 align="center">Featured Work</h2>
 
-<div align="center">
-
-<table>
-	<tr>
-		<th align="center">Project</th>
-		<th align="center">Description</th>
-		<th align="center">Stack</th>
-		<th align="center">Highlights</th>
-	</tr>
-	<tr>
-		<td align="center">
-			<a href="https://github.com/Lintshiwe/PasswordManager">
-				<img src="https://img.icons8.com/fluency/48/password-window.png" alt="Password manager icon" /><br /><strong>PasswordManager</strong>
-			</a>
-		</td>
-		<td align="center">Encrypted desktop vault that reacts to browser activity to tighten security.</td>
-		<td align="center">Python · Tkinter · SQLite</td>
-		<td align="center">Inline browser detection with respectful UX patterns.</td>
-	</tr>
-	<tr>
-		<td align="center">
-			<a href="https://github.com/Lintshiwe/CourseCampus">
-				<img src="https://img.icons8.com/fluency/48/online-learning.png" alt="Course platform icon" /><br /><strong>CourseCampus</strong>
-			</a>
-		</td>
-		<td align="center">Hybrid e-learning platform with flexible curriculum authoring.</td>
-		<td align="center">Next.js · Tailwind CSS · Firebase</td>
-		<td align="center">Offline-friendly lessons wrapped in a cohesive design system.</td>
-	</tr>
-	<tr>
-		<td align="center">
-			<a href="https://github.com/Lintshiwe/Salon">
-				<img src="https://img.icons8.com/fluency/48/barbershop.png" alt="Salon app icon" /><br /><strong>Salon</strong>
-			</a>
-		</td>
-		<td align="center">Production-ready salon and booking starter engineered for scale.</td>
-		<td align="center">React · TypeScript · Tailwind CSS</td>
-		<td align="center">Theme tokens, accessibility-first components, rapid deployment.</td>
-	</tr>
-	<tr>
-		<td align="center">
-			<a href="https://github.com/Lintshiwe/Slade_MITM">
-				<img src="https://img.icons8.com/fluency/48/data-encryption.png" alt="MITM proxy icon" /><br /><strong>Slade_MITM</strong>
-			</a>
-		</td>
-		<td align="center">Ethical MITM proxy for analyzing network flows and payloads.</td>
-		<td align="center">Python · mitmproxy</td>
-		<td align="center">Scriptable inspections built for security lab explorations.</td>
-	</tr>
-</table>
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/assets/projects-panel.svg" alt="Animated featured work panel highlighting PasswordManager, CourseCampus, Salon, and Slade_MITM" width="900" />
+</p>
 
 ---
 

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Featured projects by Lintshiwe Ntoampi</title>
+  <desc id="desc">Grid of animated project cards for PasswordManager, CourseCampus, Salon, and Slade_MITM.</desc>
+  <defs>
+    <linearGradient id="projectsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091125" />
+      <stop offset="45%" stop-color="#14213F" />
+      <stop offset="100%" stop-color="#090E1C" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C3058" />
+      <stop offset="100%" stop-color="#0F1A33" />
+    </linearGradient>
+    <filter id="projectsGlow" x="-20%" y="-25%" width="140%" height="150%">
+      <feGaussianBlur stdDeviation="18" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style><![CDATA[
+      svg { font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; }
+      .panel { fill: url(#projectsBg); stroke: #23345A; stroke-width: 2.4px; rx: 34px; ry: 34px; filter: url(#projectsGlow); }
+      .heading { font-size: 30px; font-weight: 700; fill: #F1F5FF; letter-spacing: 1.4px; }
+      .card { fill: url(#cardGradient); stroke: rgba(255,255,255,0.07); stroke-width: 1.6px; rx: 22px; ry: 22px; }
+      .card-title { font-size: 20px; font-weight: 600; fill: #F3F6FF; }
+      .card-body { font-size: 15px; fill: #95A9DD; letter-spacing: 0.6px; }
+      .card-meta { font-size: 14px; fill: #6F84B6; letter-spacing: 0.6px; }
+      .badge { fill: rgba(114,245,255,0.18); stroke: rgba(114,245,255,0.3); stroke-width: 1.4px; rx: 16px; ry: 16px; }
+      .badge-text { font-size: 13px; fill: #C2EFFF; }
+      @keyframes tilt {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(1.6deg); }
+      }
+      .card-group { animation: tilt 8s ease-in-out infinite; }
+      .card-group:nth-of-type(2) { animation-delay: 1s; }
+      .card-group:nth-of-type(3) { animation-delay: 2s; }
+      .card-group:nth-of-type(4) { animation-delay: 3s; }
+    ]]></style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="864" height="324" rx="34" ry="34" />
+  <text class="heading" x="60" y="84">Featured Work</text>
+  <g transform="translate(60,110)">
+    <g class="card-group" transform="translate(0,0)">
+      <rect class="card" width="360" height="120" />
+      <rect class="badge" width="90" height="28" x="20" y="20" />
+      <text class="badge-text" x="65" y="38" text-anchor="middle">Security</text>
+      <text class="card-title" x="20" y="72">PasswordManager</text>
+      <text class="card-body" x="20" y="102">Encrypted desktop vault with browser activity detection and respectful UX.</text>
+      <text class="card-meta" x="20" y="126">Python · Tkinter · SQLite</text>
+    </g>
+    <g class="card-group" transform="translate(420,0)">
+      <rect class="card" width="360" height="120" />
+      <rect class="badge" width="105" height="28" x="20" y="20" />
+      <text class="badge-text" x="72" y="38" text-anchor="middle">Learning</text>
+      <text class="card-title" x="20" y="72">CourseCampus</text>
+      <text class="card-body" x="20" y="102">Hybrid e-learning platform with flexible curriculum authoring and offline mode.</text>
+      <text class="card-meta" x="20" y="126">Next.js · Tailwind CSS · Firebase</text>
+    </g>
+    <g class="card-group" transform="translate(0,150)">
+      <rect class="card" width="360" height="120" />
+      <rect class="badge" width="90" height="28" x="20" y="20" />
+      <text class="badge-text" x="65" y="38" text-anchor="middle">Product</text>
+      <text class="card-title" x="20" y="72">Salon</text>
+      <text class="card-body" x="20" y="102">Production-ready salon and booking starter focusing on theming and scale.</text>
+      <text class="card-meta" x="20" y="126">React · TypeScript · Tailwind CSS</text>
+    </g>
+    <g class="card-group" transform="translate(420,150)">
+      <rect class="card" width="360" height="120" />
+      <rect class="badge" width="116" height="28" x="20" y="20" />
+      <text class="badge-text" x="78" y="38" text-anchor="middle">SecOps</text>
+      <text class="card-title" x="20" y="72">Slade_MITM</text>
+      <text class="card-body" x="20" y="102">Ethical MITM proxy for analyzing network flows and payload behaviors.</text>
+      <text class="card-meta" x="20" y="126">Python · mitmproxy</text>
+    </g>
+  </g>
+</svg>

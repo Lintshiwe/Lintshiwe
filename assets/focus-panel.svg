@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Current focus panel for Lintshiwe Ntoampi</title>
+  <desc id="desc">Animated trio of cards describing what Lintshiwe Ntoampi is currently shipping, learning, and collaborating on.</desc>
+  <defs>
+    <linearGradient id="focusBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A142A" />
+      <stop offset="50%" stop-color="#15254A" />
+      <stop offset="100%" stop-color="#090E1C" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2F56" />
+      <stop offset="100%" stop-color="#101C36" />
+    </linearGradient>
+    <filter id="focusGlow" x="-25%" y="-30%" width="150%" height="170%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style><![CDATA[
+      svg { font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; }
+      .panel { fill: url(#focusBg); stroke: #233459; stroke-width: 2.4px; rx: 34px; ry: 34px; filter: url(#focusGlow); }
+      .heading { font-size: 30px; font-weight: 700; fill: #F1F5FF; letter-spacing: 1.4px; }
+      .subheading { font-size: 16px; fill: #8AA1D6; letter-spacing: 1px; }
+      .card { fill: url(#cardGrad); stroke: rgba(255,255,255,0.06); stroke-width: 1.6px; rx: 20px; ry: 20px; }
+      .card-title { font-size: 20px; font-weight: 600; fill: #F3F6FF; letter-spacing: 1px; }
+      .card-body { font-size: 15px; fill: #94A8DD; letter-spacing: 0.6px; }
+      .icon-badge { fill: rgba(114,245,255,0.15); }
+      .icon { font-size: 32px; text-anchor: middle; dominant-baseline: middle; fill: #70F1FF; }
+      @keyframes pulse {
+        0% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.04); opacity: 1; }
+        100% { transform: scale(1); opacity: 0.9; }
+      }
+      .card-group { animation: pulse 7s ease-in-out infinite; }
+      .card-group:nth-of-type(2) { animation-delay: 1.2s; }
+      .card-group:nth-of-type(3) { animation-delay: 2.4s; }
+    ]]></style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="864" height="224" rx="34" ry="34" />
+  <text class="heading" x="60" y="80">Current Focus</text>
+  <text class="subheading" x="60" y="110">What I am shipping, learning, and collaborating on right now.</text>
+  <g transform="translate(60,130)">
+    <g class="card-group" transform="translate(0,0)">
+      <rect class="card" width="250" height="120" />
+      <circle class="icon-badge" cx="48" cy="46" r="28" />
+      <text class="icon" x="48" y="52">🚢</text>
+      <text class="card-title" x="100" y="52">Shipping</text>
+      <text class="card-body" x="100" y="82">Salon starter kit with theme tokens and automated deployment.</text>
+    </g>
+    <g class="card-group" transform="translate(280,0)">
+      <rect class="card" width="250" height="120" />
+      <circle class="icon-badge" cx="48" cy="46" r="28" />
+      <text class="icon" x="48" y="52">🧠</text>
+      <text class="card-title" x="100" y="52">Learning</text>
+      <text class="card-body" x="100" y="82">Advanced MITM payload inspection with Python and mitmproxy.</text>
+    </g>
+    <g class="card-group" transform="translate(560,0)">
+      <rect class="card" width="250" height="120" />
+      <circle class="icon-badge" cx="48" cy="46" r="28" />
+      <text class="icon" x="48" y="52">🤝</text>
+      <text class="card-title" x="100" y="52">Collaborating</text>
+      <text class="card-body" x="100" y="82">Open to UI-rich security tooling and education platform partnerships.</text>
+    </g>
+  </g>
+</svg>

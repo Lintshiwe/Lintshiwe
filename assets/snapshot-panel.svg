@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title id="title">Signature snapshot of Lintshiwe Ntoampi</title>
+  <desc id="desc">Grid of animated cards summarising the signature focus areas of Lintshiwe Ntoampi.</desc>
+  <defs>
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1122" />
+      <stop offset="45%" stop-color="#121F3B" />
+      <stop offset="100%" stop-color="#080C16" />
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15254A" />
+      <stop offset="100%" stop-color="#0E1933" />
+    </linearGradient>
+    <filter id="panelGlow" x="-25%" y="-30%" width="150%" height="160%">
+      <feGaussianBlur stdDeviation="18" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style><![CDATA[
+      svg { font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; }
+      .panel { fill: url(#panelBg); stroke: #24335B; stroke-width: 2.6px; rx: 36px; ry: 36px; filter: url(#panelGlow); }
+      .heading { font-size: 32px; font-weight: 700; fill: #F2F6FF; letter-spacing: 1.6px; }
+      .card { fill: url(#cardBg); stroke: rgba(255,255,255,0.08); stroke-width: 1.6px; rx: 22px; ry: 22px; }
+      .card-title { font-size: 20px; font-weight: 600; fill: #F3F6FF; letter-spacing: 1px; }
+      .card-sub { font-size: 15px; fill: #90A3D8; letter-spacing: 0.6px; }
+      .icon-circle { fill: #1B2E54; }
+      .icon { font-size: 28px; dominant-baseline: middle; text-anchor: middle; fill: #72F5FF; }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      .card-group { animation: float 6s ease-in-out infinite; }
+      .card-group:nth-of-type(2) { animation-delay: 0.8s; }
+      .card-group:nth-of-type(3) { animation-delay: 1.6s; }
+      .card-group:nth-of-type(4) { animation-delay: 2.4s; }
+      .card-group:nth-of-type(5) { animation-delay: 3.2s; }
+      .card-group:nth-of-type(6) { animation-delay: 4s; }
+    ]]></style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="864" height="284" rx="36" ry="36" />
+  <text class="heading" x="60" y="90">Signature Snapshot</text>
+  <g transform="translate(60,120)">
+    <g class="card-group" transform="translate(0,0)">
+      <rect class="card" width="240" height="110" />
+      <circle class="icon-circle" cx="42" cy="40" r="26" opacity="0.35" />
+      <text class="icon" x="42" y="46">💡</text>
+      <text class="card-title" x="90" y="44">Full-Stack Craft</text>
+      <text class="card-sub" x="90" y="72">End-to-end journeys, responsive design systems.</text>
+    </g>
+    <g class="card-group" transform="translate(270,0)">
+      <rect class="card" width="240" height="110" />
+      <circle class="icon-circle" cx="42" cy="40" r="26" opacity="0.35" />
+      <text class="icon" x="42" y="46">🧊</text>
+      <text class="card-title" x="90" y="44">Liquid Glass UI</text>
+      <text class="card-sub" x="90" y="72">Motion-led prototypes with futuristic aesthetics.</text>
+    </g>
+    <g class="card-group" transform="translate(540,0)">
+      <rect class="card" width="240" height="110" />
+      <circle class="icon-circle" cx="42" cy="40" r="26" opacity="0.35" />
+      <text class="icon" x="42" y="46">🔒</text>
+      <text class="card-title" x="90" y="44">Secure Engineering</text>
+      <text class="card-sub" x="90" y="72">Local-first encryption blended with offensive insights.</text>
+    </g>
+    <g class="card-group" transform="translate(0,140)">
+      <rect class="card" width="240" height="110" />
+      <circle class="icon-circle" cx="42" cy="40" r="26" opacity="0.35" />
+      <text class="icon" x="42" y="46">⚙️</text>
+      <text class="card-title" x="90" y="44">DevOps Mindset</text>
+      <text class="card-sub" x="90" y="72">Red Hat administration, automation pipelines, metrics.</text>
+    </g>
+    <g class="card-group" transform="translate(270,140)">
+      <rect class="card" width="240" height="110" />
+      <circle class="icon-circle" cx="42" cy="40" r="26" opacity="0.35" />
+      <text class="icon" x="42" y="46">🖥️</text>
+      <text class="card-title" x="90" y="44">Terminal R&D</text>
+      <text class="card-sub" x="90" y="72">Browser-based terminals and OS-level scripting.</text>
+    </g>
+    <g class="card-group" transform="translate(540,140)">
+      <rect class="card" width="240" height="110" />
+      <circle class="icon-circle" cx="42" cy="40" r="26" opacity="0.35" />
+      <text class="icon" x="42" y="46">🤝</text>
+      <text class="card-title" x="90" y="44">Community Driven</text>
+      <text class="card-sub" x="90" y="72">Mentoring peers through UI, security, and Linux labs.</text>
+    </g>
+  </g>
+</svg>
