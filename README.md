@@ -1,94 +1,78 @@
-<div align="center">
-
 # Lintshiwe Ntoampi 👨🏾‍💻
 
-<img src="https://raw.githubusercontent.com/rajat2502/svg-assets/main/liquid-glass-banner.gif" alt="Liquid Glass Animation banner" width="100%" />
+![Liquid Glass Animation banner](https://raw.githubusercontent.com/rajat2502/svg-assets/main/liquid-glass-banner.gif)
 
-<img src="https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/slade-logo.png" width="140" alt="Lintshiwe Ntoampi avatar" />
+Code Stylist • UI/UX Explorer • Terminal Enthusiast • Offensive Security Learner
 
-## Code Stylist · UI/UX Explorer · Terminal Enthusiast · Offensive Security Learner
+Crafting immersive full-stack experiences that balance aesthetics, performance, and security.
 
-I build full-stack experiences that blend performance, creativity, and secure technology. My passion lies in crafting intuitive user interfaces and exploring the frontiers of cybersecurity.
-
-</div>
+![Lintshiwe Ntoampi avatar](https://raw.githubusercontent.com/Lintshiwe/Lintshiwe/main/slade-logo.png)
 
 ---
 
-### ✨ About Me
+## ✨ Snapshot
 
-I'm a developer driven by the challenge of merging cutting-edge design with robust, secure backend systems. My journey into tech began with a fascination for the command line, which evolved into a deep appreciation for the entire development lifecycle—from crafting pixel-perfect UIs to architecting scalable applications and securing them.
-
-- 💻 Building **full-stack experiences** that harmonize performance and creativity.
-- 🧊 Designing futuristic **Liquid Glass UIs** that push the boundaries of user experience.
-- 🐧 Experimenting with **Linux browser terminals** to create novel development environments.
-- 🔒 Exploring **local-first encryption and security** to build more private and secure applications.
-- ⚙️ Skilled in **DevOps & Red Hat Administration**, ensuring smooth and secure deployments.
+- 💻 Building expressive full-stack interfaces that feel as good as they look.
+- 🧊 Designing Liquid Glass UI experiments that reimagine interaction patterns.
+- 🔒 Researching local-first encryption flows for privacy-forward tooling.
+- 🧪 Automating security-focused workflows inside the terminal.
+- ⚙️ Practicing DevOps and Red Hat administration to keep delivery smooth and resilient.
 
 ---
 
-### 🧪 Tech Toolbox
+## 🔭 What I'm Exploring
 
-My toolkit is a blend of modern web technologies, backend systems, and security tools.
+> Pushing browser-based terminals, blending Next.js with defensive/offensive security tooling, and crafting learning experiences that stay accessible offline.
 
-| Frontend     | Backend | Databases | DevOps & Tools |
-| ------------ | ------- | --------- | -------------- |
-| React        | Node.js | Firebase  | Linux          |
-| Next.js      | Python  | SQLite    | Git & GitHub   |
-| TypeScript   | Java    |           | VS Code        |
-| JavaScript   |         |           | Docker         |
-| Tailwind CSS |         |           | Bash           |
-| HTML5 & CSS3 |         |           | Ansible        |
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode,docker,bash,ansible" alt="Tech Stack Icons" />
-</div>
+- 🚢 Shipping: a modular salon booking starter, hardened for production.
+- 🧠 Learning: deeper MITM inspection with Python + mitmproxy.
+- 🤝 Collaborating: open to UI-heavy security tooling and education platforms.
 
 ---
 
-### 🚀 Featured Projects
+## 🧰 Toolkit
 
-Here are a few projects that showcase my skills and interests.
+| Frontend                     | Backend                 | Data                | Automation              |
+| ---------------------------- | ----------------------- | ------------------- | ----------------------- |
+| Next.js · React · TypeScript | Node.js · Python · Java | Firebase · SQLite   | Docker · Ansible · Bash |
+| Tailwind CSS · CSS Art       | API Design · Sockets    | Local-first Storage | Git · GitHub · Red Hat  |
 
-| Project                                                             | Description                                                                                                      | Technologies                    |
-| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| [**PasswordManager**](https://github.com/Lintshiwe/PasswordManager) | An encrypted desktop vault for managing passwords with browser activity detection for enhanced security.         | Python, Tkinter, SQLite         |
-| [**CourseCampus**](https://github.com/Lintshiwe/CourseCampus)       | A hybrid e-learning platform designed to provide a seamless educational experience for students and instructors. | Next.js, Tailwind CSS, Firebase |
-| [**Salon**](https://github.com/Lintshiwe/Salon)                     | A scalable and modern UI boilerplate for salon and booking applications, built with a focus on reusability.      | React, TypeScript, Tailwind CSS |
-| [**Slade_MITM**](https://github.com/Lintshiwe/Slade_MITM)           | A Man-in-the-Middle (MITM) proxy tool developed for ethical hacking and network traffic analysis.                | Python, mitmproxy               |
+![Tech stack icons](https://skillicons.dev/icons?i=ts,js,py,java,react,nextjs,nodejs,firebase,sqlite,tailwind,css,html,linux,git,github,vscode,docker,bash,ansible)
 
 ---
 
-### 📊 GitHub Stats
+## 🚀 Featured Work
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lintshiwe&show_icons=true&theme=transparent&title_color=00ffff&text_color=ffffff&icon_color=8b5cf6&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=transparent&title_color=8b5cf6&text_color=ffffff&hide_border=true&bg_color=00000000" alt="Top Languages" />
-</div>
-
----
-
-### 🏅 Digital Badges
-
-<div align="center">
-  [![An image of @lintshiwe's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/lintshiwe)](https://holopin.io/@lintshiwe)
-</div>
+| Project                                                         | What it Does                                                                 | Stack                             | Highlights                                        |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------- | ------------------------------------------------- |
+| [PasswordManager](https://github.com/Lintshiwe/PasswordManager) | Encrypted desktop vault that reacts to browser activity to tighten security. | Python · Tkinter · SQLite         | Inline browser detection, respectful UX.          |
+| [CourseCampus](https://github.com/Lintshiwe/CourseCampus)       | Hybrid e-learning platform with flexible curriculum authoring.               | Next.js · Tailwind CSS · Firebase | Offline-friendly lessons, cohesive design system. |
+| [Salon](https://github.com/Lintshiwe/Salon)                     | Production-ready salon/booking starter focused on theming and scale.         | React · TypeScript · Tailwind CSS | Design tokens, accessibility-first components.    |
+| [Slade_MITM](https://github.com/Lintshiwe/Slade_MITM)           | Ethical MITM proxy for analyzing network flows and payloads.                 | Python · mitmproxy                | Scriptable inspections, security lab ready.       |
 
 ---
 
-### 🔗 Connect with Me
+## 📊 Stats & Activity
 
-Let's connect and create something amazing together!
-
-<div align="center">
-  <a href="https://linkedin.com/in/lintshiwe" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" width="40" alt="LinkedIn" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://twitter.com/Lintshiwe" target="_blank"><img src="https://skillicons.dev/icons?i=twitter" width="40" alt="Twitter" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:ntoampilp@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40" alt="Gmail" /></a>
-</div>
+![GitHub stats for Lintshiwe](https://github-readme-stats.vercel.app/api?username=Lintshiwe&show_icons=true&theme=transparent&title_color=00ffff&text_color=ffffff&icon_color=8b5cf6&hide_border=true&bg_color=00000000)
+![Top languages for Lintshiwe](https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=transparent&title_color=8b5cf6&text_color=ffffff&hide_border=true&bg_color=00000000)
 
 ---
 
-<div align="center">
-  ✨ Slade the Deceiver ✨
-</div>
+## 🏅 Digital Badges
+
+[![An image of @lintshiwe's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/lintshiwe)](https://holopin.io/@lintshiwe)
+
+---
+
+## 🤝 Connect
+
+Let's collaborate on bold interfaces, secure systems, or anything that bridges the two.
+
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/lintshiwe)
+[![Twitter](https://skillicons.dev/icons?i=twitter)](https://twitter.com/Lintshiwe)
+[![Email](https://skillicons.dev/icons?i=gmail)](mailto:ntoampilp@gmail.com)
+
+---
+
+✨ Slade the Deceiver ✨
