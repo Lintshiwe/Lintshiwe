@@ -21,76 +21,178 @@
 
 ---
 
-## Signature Snapshot
+<h2 align="center">Signature Snapshot</h2>
 
-- **Full-Stack Craft:** Designing products end-to-end with responsive, accessible interfaces backed by reliable services.
-- **Liquid Glass UI:** Prototyping cinematic, motion-led interactions that still feel grounded and usable.
-- **Secure Engineering:** Applying local-first encryption research and offensive insights to keep builds resilient.
-- **DevOps Mindset:** Automating delivery with Red Hat, containers, observability, and crisp release pipelines.
-- **Terminal R&D:** Experimenting with browser-based terminals, scripting, and OS-level automation.
-- **Community Driven:** Mentoring peers through UI clinics, security labs, and open-source walkthroughs.
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="180">
+      <img src="https://img.icons8.com/fluency/96/laptop-coding.png" alt="Full stack icon" width="72" />
+      <br /><strong>Full-Stack Craft</strong>
+      <br /><sub>Designing responsive, accessible journeys with resilient services.</sub>
+    </td>
+    <td align="center" width="180">
+      <img src="https://img.icons8.com/fluency/96/3d-select.png" alt="Liquid glass icon" width="72" />
+      <br /><strong>Liquid Glass UI</strong>
+      <br /><sub>Cinematic motion and tactile micro-interactions grounded in usability.</sub>
+    </td>
+    <td align="center" width="180">
+      <img src="https://img.icons8.com/fluency/96/cyber-security.png" alt="Security icon" width="72" />
+      <br /><strong>Secure Engineering</strong>
+      <br /><sub>Local-first encryption and offensive insights to keep builds resilient.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="180">
+      <img src="https://img.icons8.com/fluency/96/cloud-devops.png" alt="DevOps icon" width="72" />
+      <br /><strong>DevOps Mindset</strong>
+      <br /><sub>Automation playbooks, observability, and crisp release pipelines.</sub>
+    </td>
+    <td align="center" width="180">
+      <img src="https://img.icons8.com/fluency/96/console.png" alt="Terminal icon" width="72" />
+      <br /><strong>Terminal R&amp;D</strong>
+      <br /><sub>Browser terminals, scripting adventures, and OS-level tinkering.</sub>
+    </td>
+    <td align="center" width="180">
+      <img src="https://img.icons8.com/fluency/96/conference-call.png" alt="Community icon" width="72" />
+      <br /><strong>Community Driven</strong>
+      <br /><sub>Mentoring through UI clinics, security labs, and open-source walkthroughs.</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
-## Current Focus
+<h2 align="center">Current Focus</h2>
 
-- **Shipping:** Bringing the Salon starter kit to production with theme tokens, booking flows, and deployment playbooks.
-- **Learning:** Deep-diving MITM payload inspection using Python, mitmproxy, and telemetry analysis.
-- **Collaborating:** Looking for partnerships on UI-rich security tooling and education platforms.
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="220">
+      <img src="https://img.icons8.com/fluency/96/product.png" alt="Shipping icon" width="72" />
+      <br /><strong>Shipping</strong>
+      <br /><sub>Salon starter kit with theme tokens, booking flows, and deployment playbooks.</sub>
+    </td>
+    <td align="center" width="220">
+      <img src="https://img.icons8.com/fluency/96/mind-map.png" alt="Learning icon" width="72" />
+      <br /><strong>Learning</strong>
+      <br /><sub>Advanced MITM payload inspection with Python, mitmproxy, and telemetry trails.</sub>
+    </td>
+    <td align="center" width="220">
+      <img src="https://img.icons8.com/fluency/96/handshake.png" alt="Collaboration icon" width="72" />
+      <br /><strong>Collaborating</strong>
+      <br /><sub>Seeking partners on UI-rich security tooling and education platforms.</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
-## Featured Work Highlights
+<h2 align="center">Featured Work Highlights</h2>
 
-- **PasswordManager** · Python · Tkinter · SQLite — Encrypted desktop vault that adapts to browser activity with respectful UX.
-- **CourseCampus** · Next.js · Tailwind · Firebase — Hybrid e-learning authoring platform with offline-friendly delivery.
-- **Salon** · React · TypeScript · Tailwind — Production-ready appointment starter focused on theme-ability and scale.
-- **Slade_MITM** · Python · mitmproxy — Ethical MITM proxy for inspecting network flows and payload behavior.
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="220">
+      <a href="https://github.com/Lintshiwe/PasswordManager"><img src="https://img.icons8.com/fluency/96/password-window.png" alt="Password manager icon" width="72" /></a>
+      <br /><a href="https://github.com/Lintshiwe/PasswordManager"><strong>PasswordManager</strong></a>
+      <br /><sub>Python · Tkinter · SQLite</sub>
+      <br /><sub>Encrypted desktop vault reacting to browser activity with respectful UX.</sub>
+    </td>
+    <td align="center" width="220">
+      <a href="https://github.com/Lintshiwe/CourseCampus"><img src="https://img.icons8.com/fluency/96/online-learning.png" alt="Course platform icon" width="72" /></a>
+      <br /><a href="https://github.com/Lintshiwe/CourseCampus"><strong>CourseCampus</strong></a>
+      <br /><sub>Next.js · Tailwind · Firebase</sub>
+      <br /><sub>Hybrid e-learning authoring with offline-friendly delivery.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="220">
+      <a href="https://github.com/Lintshiwe/Salon"><img src="https://img.icons8.com/fluency/96/barbershop.png" alt="Salon icon" width="72" /></a>
+      <br /><a href="https://github.com/Lintshiwe/Salon"><strong>Salon</strong></a>
+      <br /><sub>React · TypeScript · Tailwind</sub>
+      <br /><sub>Production-ready appointment starter engineered for scale.</sub>
+    </td>
+    <td align="center" width="220">
+      <a href="https://github.com/Lintshiwe/Slade_MITM"><img src="https://img.icons8.com/fluency/96/data-encryption.png" alt="MITM proxy icon" width="72" /></a>
+      <br /><a href="https://github.com/Lintshiwe/Slade_MITM"><strong>Slade_MITM</strong></a>
+      <br /><sub>Python · mitmproxy</sub>
+      <br /><sub>Ethical proxy for analyzing network flows and payload behavior.</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
-## Real-Time Signals
+<h2 align="center">Real-Time Signals</h2>
 
 Live telemetry from the profile, stacked with visual cues for reach, followers, and engineering rhythm.
 
-**Reach**  
-![Profile views counter](https://komarev.com/ghpvc/?username=Lintshiwe&style=for-the-badge&label=Profile%20Views&color=0ea5e9) ![GitHub followers badge](https://img.shields.io/github/followers/Lintshiwe?label=Followers&style=for-the-badge&color=9333ea) ![GitHub stars badge](https://img.shields.io/github/stars/Lintshiwe?label=Stars&style=for-the-badge&color=f97316)
+<div align="center">
 
-**Stacks in Rotation**  
-![Skill icons for React, Next.js, TypeScript, Tailwind, Python, Java, Node.js, Docker, Linux, Git, GitHub Actions, Postgres](https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,python,java,nodejs,docker,linux,git,githubactions,postgres)
+<strong>Reach</strong><br />
+<img src="https://komarev.com/ghpvc/?username=Lintshiwe&style=for-the-badge&label=Profile%20Views&color=0ea5e9" alt="Profile views counter" />
+<img src="https://img.shields.io/github/followers/Lintshiwe?label=Followers&style=for-the-badge&color=9333ea" alt="GitHub followers badge" />
+<img src="https://img.shields.io/github/stars/Lintshiwe?label=Stars&style=for-the-badge&color=f97316" alt="GitHub stars badge" />
 
-**Performance Snapshot**  
-![GitHub stats for Lintshiwe](https://github-readme-stats.vercel.app/api?username=Lintshiwe&show_icons=true&theme=transparent&title_color=00ffff&text_color=ffffff&icon_color=8b5cf6&hide_border=true&bg_color=00000000)  
-![Top languages for Lintshiwe](https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=transparent&title_color=8b5cf6&text_color=ffffff&hide_border=true&bg_color=00000000)
+<br /><br /><strong>Stacks in Rotation</strong><br />
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,python,java,nodejs,docker,linux,git,githubactions,postgres" alt="Skill icons for React, Next.js, TypeScript, Tailwind, Python, Java, Node.js, Docker, Linux, Git, GitHub Actions, Postgres" />
 
-**Rhythm**  
-![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=Lintshiwe&theme=transparent&ring=8b5cf6&fire=f97316&currStreakLabel=00ffff)
+<br /><br /><strong>Performance Snapshot</strong><br />
+<img src="https://github-readme-stats.vercel.app/api?username=Lintshiwe&show_icons=true&theme=transparent&title_color=00ffff&text_color=ffffff&icon_color=8b5cf6&hide_border=true&bg_color=00000000" alt="GitHub stats for Lintshiwe" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=transparent&title_color=8b5cf6&text_color=ffffff&hide_border=true&bg_color=00000000" alt="Top languages for Lintshiwe" />
 
-**Milestones**  
-![GitHub profile trophies](https://github-profile-trophy.vercel.app/?username=Lintshiwe&theme=algolia&margin-w=10&margin-h=10&column=4&row=1)
+<br /><br /><strong>Rhythm</strong><br />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Lintshiwe&theme=transparent&ring=8b5cf6&fire=f97316&currStreakLabel=00ffff" alt="GitHub streak stats" />
 
-**Activity Map**  
-![GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Lintshiwe&theme=react-dark&hide_border=true&area=true&custom_title=Lintshiwe%27s%20Activity%20Heatmap)
+<br /><br /><strong>Milestones</strong><br />
+<img src="https://github-profile-trophy.vercel.app/?username=Lintshiwe&theme=algolia&margin-w=10&margin-h=10&column=4&row=1" alt="GitHub profile trophies" />
+
+<br /><br /><strong>Activity Map</strong><br />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Lintshiwe&theme=react-dark&hide_border=true&area=true&custom_title=Lintshiwe%27s%20Activity%20Heatmap" alt="GitHub activity graph" />
+
+</div>
 
 ---
 
-## Digital Badges
+<h2 align="center">Digital Badges</h2>
 
 Holopin board tracking learning sprints, collaborations, and security practice challenges.
 
+<div align="center">
+
 [![Lintshiwe Holopin badge board](https://holopin.me/lintshiwe)](https://holopin.io/@lintshiwe)
+
+</div>
 
 ---
 
-## Connect
+<h2 align="center">Connect</h2>
+
+<div align="center">
 
 Always up for conversations around cinematic UI, secure engineering, and community labs.
 
-- [LinkedIn](https://linkedin.com/in/lintshiwe)
-- [Twitter](https://twitter.com/Lintshiwe)
-- [Email](mailto:ntoampilp@gmail.com)
-- [GitHub](https://github.com/Lintshiwe)
+<p>
+  <a href="https://linkedin.com/in/lintshiwe"><img src="https://img.icons8.com/color/64/linkedin.png" alt="LinkedIn" /></a>
+  <a href="https://twitter.com/Lintshiwe"><img src="https://img.icons8.com/color/64/twitter-circled.png" alt="Twitter" /></a>
+  <a href="mailto:ntoampilp@gmail.com"><img src="https://img.icons8.com/color/64/gmail-new.png" alt="Email" /></a>
+  <a href="https://github.com/Lintshiwe"><img src="https://img.icons8.com/fluency/64/github.png" alt="GitHub" /></a>
+</p>
+
+</div>
 
 ---
 
-✨ Slade the Deceiver ✨
+<div align="center">
+  ✨ Slade the Deceiver ✨
+</div>
