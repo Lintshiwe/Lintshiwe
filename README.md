@@ -47,31 +47,25 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lintshiwe&theme=react-dark&hide_border=true&area=true&custom_title=Lintshiwe%27s%20Activity%20Heatmap" alt="GitHub activity graph" />
 </p>
 
-<hr />
+---
 
-<h2>Digital Badges</h2>
-<p>Learning sprints and community recognition via Holopin.</p>
-<p>
-  <a href="https://holopin.io/@lintshiwe"><img src="https://holopin.me/lintshiwe" alt="Lintshiwe Holopin badge board" /></a>
-</p>
+## Digital Badges
 
-<hr />
+Learning sprints and community recognition via Holopin.
+[![Lintshiwe Holopin badge board](https://holopin.me/lintshiwe)](https://holopin.io/@lintshiwe)
 
-<h2>Connect</h2>
-<p>Let’s collaborate on cinematic UI, secure engineering, and community labs.</p>
-<p>
-  <a href="https://linkedin.com/in/lintshiwe"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="44" height="44" /></a>&nbsp;
-  <a href="https://twitter.com/Lintshiwe"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/x.svg" alt="X (Twitter)" width="44" height="44" /></a>&nbsp;
-  <a href="mailto:ntoampilp@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" width="44" height="44" /></a>&nbsp;
-  <a href="https://github.com/Lintshiwe"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="44" height="44" /></a>
-</p>
+---
 
-<hr />
+## Connect
 
-<p>
-  <img src="https://avatars.githubusercontent.com/u/104380596?v=4" alt="Lintshiwe avatar" width="20" style="border-radius:50%;" />
-  Slade the Deceiver
-  <img src="https://avatars.githubusercontent.com/u/104380596?v=4" alt="Lintshiwe avatar" width="20" style="border-radius:50%;" />
-</p>
+Let’s collaborate on cinematic UI, secure engineering, and community labs.
+[![LinkedIn](https://img.icons8.com/color/48/linkedin.png)](https://linkedin.com/in/lintshiwe)&nbsp;&nbsp;
+[![X](https://img.icons8.com/ios-filled/50/ffffff/twitterx--v1.png)](https://twitter.com/Lintshiwe)&nbsp;&nbsp;
+[![Email](https://img.icons8.com/color/48/gmail-new.png)](mailto:ntoampilp@gmail.com)&nbsp;&nbsp;
+[![GitHub](https://img.icons8.com/ios-glyphs/48/ffffff/github.png)](https://github.com/Lintshiwe)
+
+---
+
+![Lintshiwe avatar](https://avatars.githubusercontent.com/u/104380596?v=4&s=24)&nbsp;Slade the Deceiver&nbsp;![Lintshiwe avatar](https://avatars.githubusercontent.com/u/104380596?v=4&s=24)
 
 </div>
