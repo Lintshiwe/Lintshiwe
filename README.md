@@ -49,10 +49,17 @@
 
 ---
 
-## Digital Badges
+## 🎖️ Digital Badges
 
-Learning sprints and community recognition via Holopin.
+<div align="center">
+
+<!-- Red Hat Badge Static Image -->
+[![Red Hat System Administration I](https://images.credly.com/size/340x340/images/0e1d3a3a-7c6a-4c4e-8c3b-3c3f3f3f3f3f/red-hat-certified-system-administrator.png)](https://www.credly.com/badges/a153d739-7eb0-4ad3-bb3e-6f9d799fd483)
+
+<!-- Holopin Badge Board -->
 [![Lintshiwe Holopin badge board](https://holopin.me/lintshiwe)](https://holopin.io/@lintshiwe)
+
+</div>
 
 ---
 
