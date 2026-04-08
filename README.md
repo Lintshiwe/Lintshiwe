@@ -6,7 +6,7 @@
 
 <img src="https://raw.githubusercontent.com/rajat2502/svg-assets/main/liquid-glass-banner.gif" alt="Liquid glass animation banner" width="100%" />
 
-### 🚀 Designing resilient full-stack experiences with cinematic UI polish
+### <img src="https://img.icons8.com/?size=100&id=11306&format=png&color=000000" width="28" style="vertical-align: top;" alt="Rocket" /> Designing resilient full-stack experiences with cinematic UI polish
 
 Full-stack engineer and security learner crafting tactile digital products where design systems, automation, and privacy-first thinking intersect.
 
@@ -19,13 +19,13 @@ Full-stack engineer and security learner crafting tactile digital products where
 <!-- Quick Links -->
 <div align="center">
 
-[🔗 Open Source](https://github.com/Lintshiwe?tab=repositories) • [💼 LinkedIn](https://linkedin.com/in/lintshiwe) • [✉️ Email](mailto:ntoampilp@gmail.com) • [𝕏 Twitter](https://twitter.com/Lintshiwe)
+[<img src="https://img.icons8.com/color/48/external-link.png" width="20" style="vertical-align: bottom;" alt="Link" /> Open Source](https://github.com/Lintshiwe?tab=repositories) • [<img src="https://img.icons8.com/color/48/linkedin.png" width="20" style="vertical-align: bottom;" alt="LinkedIn" /> LinkedIn](https://linkedin.com/in/lintshiwe) • [<img src="https://img.icons8.com/color/48/gmail-new.png" width="20" style="vertical-align: bottom;" alt="Email" /> Email](mailto:ntoampilp@gmail.com) • [<img src="https://img.icons8.com/ios-filled/50/ffffff/twitterx--v1.png" width="20" style="vertical-align: bottom;" alt="X" /> Twitter](https://twitter.com/Lintshiwe)
 
 </div>
 
 ---
 
-## 📊 GitHub Analytics
+## <img src="https://img.icons8.com/color/48/combo-chart--v1.png" width="32" style="vertical-align: bottom;" alt="Chart" /> GitHub Analytics
 
 <div align="center">
 
@@ -43,7 +43,7 @@ Full-stack engineer and security learner crafting tactile digital products where
 
 ---
 
-## 💻 Tech Stack
+## <img src="https://img.icons8.com/color/48/laptop--v1.png" width="32" style="vertical-align: bottom;" alt="Laptop" /> Tech Stack
 
 <div align="center">
 
@@ -59,7 +59,7 @@ Full-stack engineer and security learner crafting tactile digital products where
 
 ---
 
-## 🎖️ Certifications & Achievements
+## <img src="https://img.icons8.com/color/48/medal2--v1.png" width="32" style="vertical-align: bottom;" alt="Medal" /> Certifications & Achievements
 
 <div align="center">
 
@@ -83,7 +83,7 @@ Full-stack engineer and security learner crafting tactile digital products where
 
 ---
 
-## 🤝 Let’s Connect
+## <img src="https://img.icons8.com/color/48/handshake.png" width="32" style="vertical-align: bottom;" alt="Handshake" /> Let’s Connect
 
 <div align="center">
 
