@@ -105,5 +105,3 @@ Collaborating on **cinematic UI**, **secure engineering**, and **community labs*
 ![Lintshiwe avatar](https://avatars.githubusercontent.com/u/104380596?v=4&s=24)&nbsp;**Slade the Deceiver**&nbsp;![Lintshiwe avatar](https://avatars.githubusercontent.com/u/104380596?v=4&s=24)
 
 </div>
-
-</div>
