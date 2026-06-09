@@ -1,85 +1,146 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
-  <title id="title">Animated lightning marquee for Lintshiwe Ntoampi</title>
-  <desc id="desc">Neon lettering surrounded by animated lightning bolts to highlight the name Lintshiwe Ntoampi.</desc>
+  <title id="title">Lintshiwe Ntoampi — 3D animated header</title>
+  <desc id="desc">Gold and navy animated header with rotating 3D rings and floating geometric particles.</desc>
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0A1124" />
-      <stop offset="50%" stop-color="#101C3A" />
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a" />
+      <stop offset="50%" stop-color="#111827" />
       <stop offset="100%" stop-color="#060912" />
     </linearGradient>
-    <filter id="glow-text" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <filter id="glow-bolt" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <linearGradient id="textStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#74F9FF" />
-      <stop offset="50%" stop-color="#B693FF" />
-      <stop offset="100%" stop-color="#FFB7F8" />
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0c040" />
+      <stop offset="40%" stop-color="#d4a853" />
+      <stop offset="60%" stop-color="#e2b84c" />
+      <stop offset="100%" stop-color="#b8860b" />
     </linearGradient>
+    <linearGradient id="goldFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(212,168,83,0)" />
+      <stop offset="30%" stop-color="rgba(212,168,83,0.15)" />
+      <stop offset="70%" stop-color="rgba(212,168,83,0.15)" />
+      <stop offset="100%" stop-color="rgba(212,168,83,0)" />
+    </linearGradient>
+    <linearGradient id="blueFade" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(59,130,246,0)" />
+      <stop offset="40%" stop-color="rgba(59,130,246,0.1)" />
+      <stop offset="100%" stop-color="rgba(59,130,246,0)" />
+    </linearGradient>
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="ringGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
     <style><![CDATA[
-      @keyframes flicker {
-        0% { opacity: 0.8; }
-        8% { opacity: 1; }
-        15% { opacity: 0.6; }
-        22% { opacity: 1; }
-        35% { opacity: 0.7; }
-        45% { opacity: 1; }
-        55% { opacity: 0.75; }
-        65% { opacity: 1; }
-        100% { opacity: 0.85; }
+      @keyframes ringSpin1 {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
       }
-      @keyframes dash {
-        0% { stroke-dasharray: 4 14; stroke-dashoffset: 0; }
-        50% { stroke-dasharray: 12 16; stroke-dashoffset: -18; }
-        100% { stroke-dasharray: 4 14; stroke-dashoffset: -36; }
+      @keyframes ringSpin2 {
+        0% { transform: rotate(360deg); }
+        100% { transform: rotate(0deg); }
       }
-      .neon {
-        font-family: 'Agency FB', 'Orbitron', 'Segoe UI', sans-serif;
-        font-size: 72px;
-        font-weight: 700;
-        letter-spacing: 8px;
-        fill: none;
-        stroke: url(#textStroke);
-        stroke-width: 2.5;
-        paint-order: stroke;
-        animation: flicker 3.8s ease-in-out infinite;
+      @keyframes float1 {
+        0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.25; }
+        25% { transform: translateY(-18px) rotate(90deg); opacity: 0.45; }
+        50% { transform: translateY(8px) rotate(180deg); opacity: 0.3; }
+        75% { transform: translateY(-8px) rotate(270deg); opacity: 0.4; }
       }
-      .bolt {
-        fill: none;
-        stroke: #6EF7FF;
-        stroke-width: 4;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-dasharray: 6 18;
-        animation: dash 2.8s linear infinite;
+      @keyframes float2 {
+        0%, 100% { transform: translateY(0) scale(1); opacity: 0.2; }
+        33% { transform: translateY(-14px) scale(1.15); opacity: 0.35; }
+        66% { transform: translateY(10px) scale(0.9); opacity: 0.25; }
       }
-      .bolt-secondary {
-        stroke: #9E7BFF;
-        stroke-width: 3;
-        animation-duration: 3.2s;
-        animation-direction: reverse;
+      @keyframes float3 {
+        0%, 100% { transform: translateX(0) translateY(0); opacity: 0.15; }
+        50% { transform: translateX(12px) translateY(-12px); opacity: 0.35; }
       }
+      @keyframes shimmer {
+        0% { opacity: 0; transform: translateX(-100%); }
+        40% { opacity: 0.6; }
+        60% { opacity: 0.6; }
+        100% { opacity: 0; transform: translateX(100%); }
+      }
+      @keyframes textFadeIn {
+        0% { opacity: 0; transform: scale(0.92); }
+        100% { opacity: 1; transform: scale(1); }
+      }
+      @keyframes subtitleIn {
+        0% { opacity: 0; transform: translateY(6px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes goldPulse {
+        0%, 100% { filter: drop-shadow(0 0 6px rgba(212,168,83,0.2)); }
+        50% { filter: drop-shadow(0 0 14px rgba(212,168,83,0.4)); }
+      }
+      .ring1 { animation: ringSpin1 18s linear infinite; transform-origin: 450px 110px; }
+      .ring2 { animation: ringSpin2 24s linear infinite; transform-origin: 450px 110px; }
+      .ring3 { animation: ringSpin1 30s linear infinite; transform-origin: 450px 110px; }
+      .geo1 { animation: float1 7s ease-in-out infinite; }
+      .geo2 { animation: float2 9s ease-in-out infinite 1s; }
+      .geo3 { animation: float3 11s ease-in-out infinite 2s; }
+      .geo4 { animation: float1 8s ease-in-out infinite 0.5s; }
+      .geo5 { animation: float2 10s ease-in-out infinite 1.5s; }
+      .geo6 { animation: float3 12s ease-in-out infinite 0.8s; }
+      .shimmer-line { animation: shimmer 4s ease-in-out infinite; }
+      .main-text {
+        animation: textFadeIn 1.2s ease-out forwards, goldPulse 3s ease-in-out infinite 1.2s;
+      }
+      .sub-text { animation: subtitleIn 0.8s ease-out 0.4s both; }
     ]]></style>
   </defs>
-  <rect x="0" y="0" width="900" height="220" rx="32" ry="32" fill="url(#bg)" />
-  <rect x="12" y="12" width="876" height="196" rx="28" ry="28" fill="none" stroke="#18254C" stroke-width="2.5" opacity="0.65" />
-  <g filter="url(#glow-text)">
-    <text class="neon" x="450" y="120" text-anchor="middle">LINTSHIWE NTOAMPI</text>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="220" rx="28" ry="28" fill="url(#bgGrad)" />
+  <rect x="10" y="10" width="880" height="200" rx="22" ry="22" fill="none" stroke="rgba(212,168,83,0.08)" stroke-width="1.5" />
+
+  <!-- 3D Rotating Rings -->
+  <g class="ring1">
+    <ellipse cx="450" cy="110" rx="340" ry="38" fill="none" stroke="rgba(212,168,83,0.12)" stroke-width="1.5" filter="url(#ringGlow)" />
   </g>
-  <g filter="url(#glow-bolt)">
-    <path class="bolt" d="M110 66 L140 82 L120 96 L150 110 L128 122" />
-    <path class="bolt" d="M790 66 L760 84 L780 100 L752 112 L772 128" />
-    <path class="bolt-secondary" d="M190 150 L210 132 L198 114 L228 102 L220 84" />
-    <path class="bolt-secondary" d="M700 150 L682 132 L698 118 L668 104 L680 86" />
+  <g class="ring2">
+    <ellipse cx="450" cy="110" rx="280" ry="30" fill="none" stroke="rgba(59,130,246,0.12)" stroke-width="1.5" filter="url(#ringGlow)" />
   </g>
+  <g class="ring3">
+    <ellipse cx="450" cy="110" rx="200" ry="22" fill="none" stroke="rgba(212,168,83,0.08)" stroke-width="1" />
+  </g>
+
+  <!-- Floating Geometric Particles -->
+  <circle class="geo1" cx="80" cy="50" r="8" fill="none" stroke="#d4a853" stroke-width="1.5" opacity="0.3" />
+  <rect class="geo2" x="770" y="140" width="16" height="16" rx="2" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.25" transform="rotate(45 778 148)" />
+  <circle class="geo3" cx="160" cy="160" r="5" fill="rgba(212,168,83,0.15)" />
+  <path class="geo4" d="M740 55 L748 45 L756 55 Z" fill="none" stroke="#3b82f6" stroke-width="1.2" opacity="0.25" />
+  <rect class="geo5" x="120" y="130" width="10" height="10" fill="rgba(59,130,246,0.1)" rx="1" />
+  <path class="geo6" d="M700 165 Q706 155 712 165 Q706 175 700 165 Z" fill="none" stroke="#d4a853" stroke-width="1" opacity="0.2" />
+
+  <!-- Decorative dots on rings -->
+  <circle class="geo1" cx="790" cy="110" r="3" fill="#d4a853" opacity="0.35" />
+  <circle class="geo2" cx="110" cy="110" r="2.5" fill="#3b82f6" opacity="0.3" />
+
+  <!-- Shimmer sweep line -->
+  <rect x="0" y="0" width="120" height="220" fill="url(#goldFade)" class="shimmer-line" />
+
+  <!-- Main Name Text -->
+  <g filter="url(#textGlow)" class="main-text">
+    <text x="450" y="112" text-anchor="middle" font-family="'Georgia', 'Playfair Display', 'Times New Roman', serif" font-size="64" font-weight="700" fill="url(#goldGrad)" letter-spacing="6">
+      LINTSHIWE NTOAMPI
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g class="sub-text">
+    <text x="450" y="165" text-anchor="middle" font-family="'Arial', 'Segoe UI', sans-serif" font-size="13" fill="#94a3b8" letter-spacing="5" font-weight="300">
+      FULL-STACK ENGINEER · UI ARCHITECT · SECURITY LEARNER
+    </text>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="350" y="184" width="200" height="1.5" rx="1" fill="url(#goldGrad)" opacity="0.3" />
 </svg>
