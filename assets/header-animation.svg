@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 140" width="100%" style="max-width: 680px;">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="680" height="140" rx="10" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.08"/>
+
+  <g fill="#00ff41" font-family="monospace" font-size="9" opacity="0.06">
+    <text x="25" y="20">01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100</text>
+    <text x="25" y="130">01010111 01100101 01101100 01100011 01101111 01101101 01100101 00100000 01110100 01101111 00100000 01101101 01111001 00100000 01110000 01110010 01101111 01100110 01101001 01101100 01100101</text>
+    <text x="420" y="20">01001100 01101001 01101110 01110100 01110011 01101000 01101001 01110111 01100101</text>
+    <text x="480" y="130">01000010 01110101 01101001 01101100 01100100 01100101 01110010</text>
+  </g>
+
+  <text x="340" y="32" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="11" opacity="0.35">lintshiwe@github:~$</text>
+
+  <text x="340" y="72" text-anchor="middle" fill="#00ff41" font-family="'Courier New',monospace" font-size="32" font-weight="bold" opacity="0.15" filter="url(#glow)">Lintshiwe Ntoampi</text>
+
+  <text x="340" y="72" text-anchor="middle" fill="#00ff41" font-family="'Courier New',monospace" font-size="32" font-weight="bold">
+    Lintshiwe Ntoampi
+    <animate attributeName="opacity" values="1;0.9;1;0.95;1;0.85;1" dur="5s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="341" y="71" text-anchor="middle" fill="#ff00ff" font-family="'Courier New',monospace" font-size="32" font-weight="bold" opacity="0">
+    Lintshiwe Ntoampi
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.08;0;0;0.04;0;0;0;0;0;0" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="340;342;338;340" dur="6s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="530" y="72" fill="#00ff41" font-family="monospace" font-size="32" font-weight="bold">
+    _
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="340" y="102" text-anchor="middle" fill="#00cc33" font-family="monospace" font-size="12" opacity="0.5">&gt; Java Spring Boot Developer  |  SOC Analyst  |  Full-Stack Engineer</text>
+
+  <rect x="0" y="0" width="680" height="2" fill="#00ff41" opacity="0">
+    <animate attributeName="y" values="-2;142" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0;0;0;0.04;0;0;0;0;0;0;0;0;0;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
