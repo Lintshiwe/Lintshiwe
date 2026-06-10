@@ -101,7 +101,7 @@ $ cat tech-stack.txt
 
 <div align="center">
 
-  <img src="assets/tech-slideshow.gif" alt="Tech Stack" width="364" height="48" style="max-width: 100%; border: 1px solid #1a3a1a; border-radius: 6px;" />
+  <img src="assets/tech-slideshow.gif" alt="Tech Stack" width="100%" style="max-width: 680px; height: auto; border: 1px solid #1a3a1a; border-radius: 6px;" />
 
 </div>
 
@@ -132,14 +132,6 @@ $ cat ~/certs/credentials.md
   <a href="https://holopin.io/@lintshiwe">
     <img src="https://holopin.me/lintshiwe" alt="Holopin" width="560" style="border-radius: 6px;" />
   </a>
-
-  <br/><br/>
-
-  <p style="font-size: 0.7rem; color: #6e7681; letter-spacing: 1px; text-transform: uppercase; font-family: monospace; margin: 28px 0 14px;"># Trophies</p>
-
-  <img src="https://github-profile-trophy.vercel.app/?username=Lintshiwe&theme=algolia&margin-w=10&margin-h=10&column=4&row=1" alt="Trophies" />
-
-  <br/><br/>
 
 </div>
 
