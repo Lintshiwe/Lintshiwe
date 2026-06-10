@@ -5,17 +5,17 @@
 
   <!-- --- HEADER --- -->
 
-  <p style="font-size: 2.8rem; font-weight: 600; letter-spacing: -0.5px; color: #f0f4f8; margin-bottom: 10px;">
+  <h1 style="font-size: 2.8rem; font-weight: 600; letter-spacing: -0.5px; color: #f0f4f8; margin-bottom: 10px; margin-top: 0; border: none; padding: 0;">
     Lintshiwe Ntoampi
-  </p>
+  </h1>
 
-  <p style="font-size: 0.95rem; color: #8b949e; letter-spacing: 1.5px; text-transform: uppercase;">
+  <h2 style="font-size: 0.95rem; color: #8b949e; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 400; margin: 0; border: none; padding: 0;">
     Full-Stack Engineer
     <span style="display: inline-block; width: 3px; height: 3px; background: #8b949e; border-radius: 50%; margin: 0 10px; vertical-align: middle; opacity: 0.5;"></span>
     Java Spring Boot Developer
     <span style="display: inline-block; width: 3px; height: 3px; background: #8b949e; border-radius: 50%; margin: 0 10px; vertical-align: middle; opacity: 0.5;"></span>
     SOC Analyst
-  </p>
+  </h2>
 
   <p style="max-width: 520px; margin: 20px auto 0; color: #6e7681; font-size: 0.92rem; line-height: 1.7;">
     Java and Spring Boot engineer building secure full stack systems. Final year CS student, SOC intern, and open source contributor. DevOps, Linux, and cybersecurity backed by real projects in network forensics, face recognition, and scalable Java platforms. Pretoria, South Africa.
@@ -79,9 +79,9 @@
 
 <!-- --- GITHUB ANALYTICS --- -->
 
-<p style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d;">
+<h2 style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d; border-top: none; margin-top: 0;">
   GitHub Analytics
-</p>
+</h2>
 
 <div align="center">
 
@@ -115,9 +115,9 @@
 
 <!-- --- TECH STACK --- -->
 
-<p style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d;">
+<h2 style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d; border-top: none; margin-top: 0;">
   Tech Stack
-</p>
+</h2>
 
 <div align="center">
 
@@ -157,9 +157,9 @@
 
 <!-- --- FEATURED PROJECTS --- -->
 
-<p style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d;">
+<h2 style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d; border-top: none; margin-top: 0;">
   Featured Projects
-</p>
+</h2>
 
 <div align="center">
 
@@ -239,9 +239,9 @@
 
 <!-- --- CERTIFICATIONS & ACHIEVEMENTS --- -->
 
-<p style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d;">
+<h2 style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d; border-top: none; margin-top: 0;">
   Certifications &amp; Achievements
-</p>
+</h2>
 
 <div align="center">
 
@@ -279,9 +279,9 @@
 
 <!-- --- LET'S CONNECT --- -->
 
-<p style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d;">
+<h2 style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d; border-top: none; margin-top: 0;">
   Let's Connect
-</p>
+</h2>
 
 <div align="center">
 
