@@ -152,6 +152,88 @@
 
 <hr style="border: none; border-top: 1px solid #21262d; opacity: 0.6;" />
 
+<!-- --- FEATURED PROJECTS --- -->
+
+<p style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d;">
+  Featured Projects
+</p>
+
+<div align="center">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td style="border: 1px solid #21262d; border-radius: 10px; padding: 16px; width: 260px; vertical-align: top;">
+      <p style="font-size: 1rem; font-weight: 600; color: #f0f4f8; margin-bottom: 6px;">
+        <a href="https://github.com/Lintshiwe/IntelProbe" style="color: #8b949e; text-decoration: none;">IntelProbe</a>
+      </p>
+      <p style="font-size: 0.78rem; color: #6e7681; margin-bottom: 8px; line-height: 1.5;">
+        AI-Powered Network Forensics CLI tool with OSINT, network scanning, and attack detection.
+      </p>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /></p>
+    </td>
+    <td width="12"></td>
+    <td style="border: 1px solid #21262d; border-radius: 10px; padding: 16px; width: 260px; vertical-align: top;">
+      <p style="font-size: 1rem; font-weight: 600; color: #f0f4f8; margin-bottom: 6px;">
+        <a href="https://github.com/Lintshiwe/DataCoreX" style="color: #8b949e; text-decoration: none;">DataCoreX</a>
+      </p>
+      <p style="font-size: 0.78rem; color: #6e7681; margin-bottom: 8px; line-height: 1.5;">
+        Open source framework for building scalable, ethical, and local-first digital platforms.
+      </p>
+      <p><img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" alt="Java" /></p>
+    </td>
+    <td width="12"></td>
+    <td style="border: 1px solid #21262d; border-radius: 10px; padding: 16px; width: 260px; vertical-align: top;">
+      <p style="font-size: 1rem; font-weight: 600; color: #f0f4f8; margin-bottom: 6px;">
+        <a href="https://github.com/Lintshiwe/FreeBrowse" style="color: #8b949e; text-decoration: none;">FreeBrowse</a>
+      </p>
+      <p style="font-size: 0.78rem; color: #6e7681; margin-bottom: 8px; line-height: 1.5;">
+        Open directory of useful websites - curated catalog of free, freemium, and open-source tools.
+      </p>
+      <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td style="border: 1px solid #21262d; border-radius: 10px; padding: 16px; width: 260px; vertical-align: top;">
+      <p style="font-size: 1rem; font-weight: 600; color: #f0f4f8; margin-bottom: 6px;">
+        <a href="https://github.com/Lintshiwe/Predator-Bot-Market_V2" style="color: #8b949e; text-decoration: none;">Predator Bot Market</a>
+      </p>
+      <p style="font-size: 0.78rem; color: #6e7681; margin-bottom: 8px; line-height: 1.5;">
+        Full-stack marketplace for algorithmic trading bots with Clerk auth and PostgreSQL.
+      </p>
+      <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></p>
+    </td>
+    <td width="12"></td>
+    <td style="border: 1px solid #21262d; border-radius: 10px; padding: 16px; width: 260px; vertical-align: top;">
+      <p style="font-size: 1rem; font-weight: 600; color: #f0f4f8; margin-bottom: 6px;">
+        <a href="https://github.com/Lintshiwe/Tickify-SWP-Web-App" style="color: #8b949e; text-decoration: none;">Tickify SWP</a>
+      </p>
+      <p style="font-size: 0.78rem; color: #6e7681; margin-bottom: 8px; line-height: 1.5;">
+        Schoolwork planning platform - organize assignments, deadlines, and collaborative projects.
+      </p>
+      <p><img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" alt="Java" /></p>
+    </td>
+    <td width="12"></td>
+    <td style="border: 1px solid #21262d; border-radius: 10px; padding: 16px; width: 260px; vertical-align: top;">
+      <p style="font-size: 1rem; font-weight: 600; color: #f0f4f8; margin-bottom: 6px;">
+        <a href="https://github.com/Lintshiwe/face-auth" style="color: #8b949e; text-decoration: none;">Face Auth</a>
+      </p>
+      <p style="font-size: 0.78rem; color: #6e7681; margin-bottom: 8px; line-height: 1.5;">
+        Real-time face recognition system - FastAPI, PyQt6, Expo mobile. MTCNN + FaceNet.
+      </p>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /></p>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<hr style="border: none; border-top: 1px solid #21262d; opacity: 0.6;" />
+
 <!-- --- CERTIFICATIONS & ACHIEVEMENTS --- -->
 
 <p style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d;">
