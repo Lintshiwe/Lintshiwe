@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- ═══ HEADER ═══ -->
+  <!-- --- HEADER --- -->
 
   <p style="font-size: 2.8rem; font-weight: 600; letter-spacing: -0.5px; color: #f0f4f8; margin-bottom: 10px;">
     Lintshiwe Ntoampi
@@ -20,7 +20,7 @@
 
   <br/>
 
-  <!-- ═══ BANNER ═══ -->
+  <!-- --- BANNER --- -->
 
   <img src="https://raw.githubusercontent.com/rajat2502/svg-assets/main/liquid-glass-banner.gif"
        alt="Banner" width="100%"
@@ -28,7 +28,7 @@
 
   <br/><br/>
 
-  <!-- ═══ NAV ═══ -->
+  <!-- --- NAV --- -->
 
   <table align="center" border="0" cellpadding="0" cellspacing="0">
     <tr>
@@ -74,7 +74,7 @@
 
 <hr style="border: none; border-top: 1px solid #21262d; opacity: 0.6;" />
 
-<!-- ═══ GITHUB ANALYTICS ═══ -->
+<!-- --- GITHUB ANALYTICS --- -->
 
 <p style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d;">
   GitHub Analytics
@@ -110,7 +110,7 @@
 
 <hr style="border: none; border-top: 1px solid #21262d; opacity: 0.6;" />
 
-<!-- ═══ TECH STACK ═══ -->
+<!-- --- TECH STACK --- -->
 
 <p style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d;">
   Tech Stack
@@ -152,7 +152,7 @@
 
 <hr style="border: none; border-top: 1px solid #21262d; opacity: 0.6;" />
 
-<!-- ═══ CERTIFICATIONS & ACHIEVEMENTS ═══ -->
+<!-- --- CERTIFICATIONS & ACHIEVEMENTS --- -->
 
 <p style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d;">
   Certifications &amp; Achievements
@@ -192,7 +192,7 @@
 
 <hr style="border: none; border-top: 1px solid #21262d; opacity: 0.6;" />
 
-<!-- ═══ LET'S CONNECT ═══ -->
+<!-- --- LET'S CONNECT --- -->
 
 <p style="font-size: 0.75rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: #8b949e; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #21262d;">
   Let's Connect
