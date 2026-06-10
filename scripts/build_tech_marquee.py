@@ -177,8 +177,9 @@ frames[0].save(
     duration=FRAME_DELAY_MS,
     loop=0,                           # infinite loop
     optimize=True,                    # LZW + remove duplicates
-    disposal=1,                       # "do not dispose" — keep previous frame
+    disposal=2,                       # restore to background (clears each frame)
     transparency=transparent_idx,     # palette index for transparency
+    background=transparent_idx,       # background color = transparent index
 )
 
 size_kb = os.path.getsize(OUTPUT) / 1024
