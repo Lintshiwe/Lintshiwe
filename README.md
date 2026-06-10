@@ -75,8 +75,26 @@ $ ./stats.sh --profile=Lintshiwe
         <img src="https://github-readme-stats.vercel.app/api?username=Lintshiwe&show_icons=true&theme=transparent&title_color=00ff41&text_color=e6edf3&icon_color=00ff41&hide_border=true&bg_color=00000000" alt="Stats" />
       </td>
       <td width="14"></td>
-      <td style="border: 1px solid #1a3a1a; border-radius: 6px; padding: 6px;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lintshiwe&layout=compact&theme=transparent&title_color=00ff41&text_color=e6edf3&hide_border=true&bg_color=00000000" alt="Languages" />
+      <td style="border: 1px solid #1a3a1a; border-radius: 6px; padding: 16px; vertical-align: top;">
+        <p style="font-size: 0.7rem; color: #00cc33; font-family: monospace; margin-bottom: 10px; text-align: left; letter-spacing: 0.5px;">
+          # Core Languages
+        </p>
+        <p style="text-align: center; margin: 0 0 6px 0;">
+          <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" alt="Java" />
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+          <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white" alt="Ruby" />
+        </p>
+        <br/>
+        <p style="font-size: 0.7rem; color: #00cc33; font-family: monospace; margin-bottom: 10px; text-align: left; letter-spacing: 0.5px;">
+          # Automation &amp; Tooling
+        </p>
+        <p style="text-align: center; margin: 0;">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+          <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+          <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible" />
+        </p>
       </td>
     </tr>
   </table>

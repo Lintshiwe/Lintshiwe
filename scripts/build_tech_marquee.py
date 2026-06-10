@@ -2,12 +2,8 @@
 """Build a seamless sliding marquee GIF of tech stack icons for GitHub README.
 
 Downloads SVG icons from skillicons.dev, rasterises with cairosvg, then builds
-a smooth right-to-left marquee GIF with transparent background.
-
-Key optimisations for file size:
-- Shared global colour palette (all frames use the same palette → better LZW compression)
-- Fewer colours (64 instead of 128)
-- disposal=1 (do not dispose) — reuses previous frame data
+a smooth right-to-left marquee GIF composited onto GitHub dark background.
+No transparency or special disposal needed — the background matches the page.
 """
 
 import io
@@ -28,9 +24,9 @@ urllib.request.install_opener(OPENER)
 # ── Config ────────────────────────────────────────────────────────────────────
 ICONS = [
     "react", "nextjs", "ts", "tailwind", "python", "java",
-    "nodejs", "docker", "linux", "bash", "git", "githubactions",
-    "postgres", "vagrant", "convex", "netlify", "spring", "ansible",
-    "redhat",
+    "ruby", "nodejs", "docker", "linux", "bash", "git",
+    "githubactions", "postgres", "vagrant", "convex", "netlify",
+    "spring", "ansible", "redhat",
 ]
 
 ICON_SIZE = 48             # pixel dimension per icon
@@ -38,8 +34,8 @@ GAP = 12                   # pixels between icons
 VIEWPORT_W = 680           # viewport width (matches header SVG max-width)
 VIEWPORT_H = ICON_SIZE     # viewport height
 FRAME_STEP = 3             # pixels to shift per frame
-FRAME_DELAY_MS = 50        # delay per frame (5 cs) — slower, smoother marquee
-PALETTE_COLORS = 64        # shared palette size (more colors = better quality)
+FRAME_DELAY_MS = 50        # delay per frame (5 cs)
+BG_COLOR = (13, 17, 23)   # GitHub dark background (#0d1117)
 
 CACHE_DIR = "/tmp/tech_icons"
 OUTPUT = "/home/ntoampi/Documents/Projects/Lintshiwe/assets/tech-slideshow.gif"
@@ -92,65 +88,35 @@ UNIT = ICON_SIZE + GAP                            # 60 px per icon slot
 STRIP_W = len(ICONS) * UNIT                       # pixels for one full set
 TOTAL_W = STRIP_W * 2                             # two full sets for seamless loop
 
-strip_img = Image.new("RGBA", (TOTAL_W, VIEWPORT_H), (0, 0, 0, 0))
+# Create strip composited onto GitHub dark background
+strip_img = Image.new("RGBA", (TOTAL_W, VIEWPORT_H), BG_COLOR + (255,))
 for i in range(len(ICONS) * 2):
     x = i * UNIT
     strip_img.paste(icon_imgs[i % len(ICONS)], (x, 0), icon_imgs[i % len(ICONS)])
 
 print(f"Strip built: {strip_img.size}")
 
-# Create a binary transparency mask from the strip's alpha channel
-# (pixels with alpha < 128 are transparent)
-alpha = strip_img.split()[3]  # alpha channel
-transparent_mask = alpha.point(lambda x: 255 if x < 128 else 0)
-
-# Convert RGBA strip to RGB (discard alpha) for palette quantization
-strip_rgb = Image.new("RGB", strip_img.size, (0, 0, 0))
-strip_rgb.paste(strip_img, mask=alpha)  # composite with alpha onto black
+# Convert to RGB (flatten alpha against the dark background)
+# Since we pasted icons with their alpha masks onto BG_COLOR, there's
+# no real transparency left — just convert directly.
+strip_rgb = strip_img.convert("RGB")
 
 
-# ── Build a shared colour palette from the full strip ─────────────────────────
-print(f"Quantizing strip to {PALETTE_COLORS}-colour palette...")
+# ── Quantize to shared palette ────────────────────────────────────────────────
+print(f"Quantizing strip to 64-colour palette...")
 palette_strip = strip_rgb.quantize(
-    colors=PALETTE_COLORS,
+    colors=64,
     method=Image.Quantize.FASTOCTREE,
     dither=Image.Dither.NONE,
 )
-shared_palette = palette_strip.getpalette()
 
-# Detect which palette index maps to transparency.
-# The gap between icons (e.g. in the middle of the first gap) is transparent.
-gap_x = ICON_SIZE + GAP // 2   # middle of first gap between icon 0 and 1
-gap_y = VIEWPORT_H // 2
-transparent_idx = palette_strip.getpixel((gap_x, gap_y))
-print(f"Transparency index: {transparent_idx} (gap at x={gap_x}, y={gap_y})")
-if shared_palette:
-    tc = shared_palette[transparent_idx*3:transparent_idx*3+3]
-    print(f"Transparency color: RGB({tc[0]}, {tc[1]}, {tc[2]})")
-print(f"Palette mode: {palette_strip.mode}, palette entries: {len(shared_palette) // 3}")
-
-# Apply the transparency mask: wherever the original alpha was transparent,
-# force those pixels to the transparency index in the quantized strip.
-palette_strip.putpixel = lambda: None  # prevent direct modification
-# Instead, convert to a writable copy
-pal_pixels = palette_strip.load()
-mask_pixels = transparent_mask.load()
-# Create a writable copy of the palette image
-palette_fixed = Image.new("P", palette_strip.size)
-palette_fixed.putpalette(shared_palette)
-for y in range(palette_strip.height):
-    for x in range(palette_strip.width):
-        if mask_pixels[x, y] == 255:  # transparent in original
-            palette_fixed.putpixel((x, y), transparent_idx)
-        else:
-            palette_fixed.putpixel((x, y), pal_pixels[x, y])
-
-print(f"Transparency mask applied to {palette_strip.width}x{palette_strip.height} strip")
+print(f"Strip quantized: {palette_strip.mode}")
 
 
-# ── Generate frames from the fixed palette strip ──────────────────────────────
-# Each frame is simply cropped from the pre-processed P-mode strip with correct
-# transparency. This avoids per-frame quantization.
+# ── Generate frames from the palette strip ────────────────────────────────────
+# Each frame is simply cropped from the pre-processed P-mode strip.
+# Since the strip was composited onto the background colour, no disposal
+# or transparency handling is needed.
 num_frames = STRIP_W // FRAME_STEP
 frames: list[Image.Image] = []
 
@@ -159,7 +125,7 @@ print(f"Generating {num_frames} frames (step={FRAME_STEP}px, "
 
 for fi in range(num_frames):
     x = fi * FRAME_STEP
-    frames.append(palette_fixed.crop((x, 0, x + VIEWPORT_W, VIEWPORT_H)))
+    frames.append(palette_strip.crop((x, 0, x + VIEWPORT_W, VIEWPORT_H)))
 
     if (fi + 1) % 100 == 0:
         print(f"    ... {fi + 1}/{num_frames} frames done")
@@ -175,11 +141,9 @@ frames[0].save(
     save_all=True,
     append_images=frames[1:],
     duration=FRAME_DELAY_MS,
-    loop=0,                           # infinite loop
-    optimize=True,                    # LZW + remove duplicates
-    disposal=2,                       # restore to background (clears each frame)
-    transparency=transparent_idx,     # palette index for transparency
-    background=transparent_idx,       # background color = transparent index
+    loop=0,            # infinite loop
+    optimize=True,     # LZW + remove duplicates
+    disposal=1,        # do not dispose (solid frames, no transparency needed)
 )
 
 size_kb = os.path.getsize(OUTPUT) / 1024
