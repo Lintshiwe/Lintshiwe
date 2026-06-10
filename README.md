@@ -101,7 +101,7 @@ $ cat tech-stack.txt
 
 <div align="center">
 
-  <img src="assets/tech-slideshow.gif" alt="Tech Stack" width="100%" style="max-width: 680px; height: auto; border: 1px solid #1a3a1a; border-radius: 6px;" />
+  <img src="assets/tech-slideshow.gif" alt="Tech Stack" width="100%" style="border: 1px solid #1a3a1a; border-radius: 6px;" />
 
 </div>
 
