@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- --- SEO / SOCIAL PREVIEW --- -->
-  <!-- Lintshiwe Ntoampi - Full-Stack Engineer, Java Spring Boot, TypeScript, Python, DevOps, and Cybersecurity. Building secure scalable systems with Java, Spring Boot, and JavaEE. -->
+  <!-- Lintshiwe Ntoampi - Java Full-Stack Engineer, Spring Boot, TypeScript, Python, DevOps, RedHat Certified SysAdmin, and Cybersecurity. Building secure scalable systems with Java, Spring Boot, and JavaEE. -->
 
   <!-- --- HEADER --- -->
 
@@ -10,7 +10,7 @@
     Lintshiwe Ntoampi
   </h1>
   <h2 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">
-    Full-Stack Engineer - Java Spring Boot Developer - SOC Analyst
+    Java Full-Stack Engineer - Spring Boot Engineer - Certified RedHat SysAdmin &amp; Automation
   </h2>
 
   <!-- Terminal header -->
@@ -19,7 +19,7 @@
   <!-- Terminal bio -->
   <p style="max-width: 560px; margin: 24px auto 0; color: #8b949e; font-family: monospace; font-size: 0.85rem; line-height: 1.8; text-align: left;">
 $ whoami<br/>
-Java &amp; Spring Boot engineer building secure full stack systems. Final year CS student, SOC intern, open source contributor. DevOps, Linux, cybersecurity backed by real projects in network forensics, face recognition, and scalable Java platforms. Pretoria, South Africa.
+Java &amp; Spring Boot engineer building secure full stack systems. Final year CS student, SOC intern, open source contributor. RedHat Certified SysAdmin specializing in automation, DevOps, Linux, and cybersecurity backed by real projects in network forensics, face recognition, and scalable Java platforms. Pretoria, South Africa.
   </p>
 
   <br/>
