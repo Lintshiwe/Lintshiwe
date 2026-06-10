@@ -39,7 +39,7 @@ VIEWPORT_W = 680           # viewport width (matches header SVG max-width)
 VIEWPORT_H = ICON_SIZE     # viewport height
 FRAME_STEP = 3             # pixels to shift per frame
 FRAME_DELAY_MS = 50        # delay per frame (5 cs) — slower, smoother marquee
-PALETTE_COLORS = 32        # shared palette size
+PALETTE_COLORS = 64        # shared palette size (more colors = better quality)
 
 CACHE_DIR = "/tmp/tech_icons"
 OUTPUT = "/home/ntoampi/Documents/Projects/Lintshiwe/assets/tech-slideshow.gif"
@@ -87,10 +87,10 @@ for name in ICONS:
 print(f"\n{len(icon_imgs)} icons ready.")
 
 
-# ── Build the full icon strip (14 icons × 2 for seamless loop) ────────────────
+# ── Build the full icon strip (N icons × 2 for seamless loop) ────────────────
 UNIT = ICON_SIZE + GAP                            # 60 px per icon slot
-STRIP_W = len(ICONS) * UNIT                       # 14 × 60 = 840 px (one full set)
-TOTAL_W = STRIP_W * 2                             # 1680 px (two full sets)
+STRIP_W = len(ICONS) * UNIT                       # pixels for one full set
+TOTAL_W = STRIP_W * 2                             # two full sets for seamless loop
 
 strip_img = Image.new("RGBA", (TOTAL_W, VIEWPORT_H), (0, 0, 0, 0))
 for i in range(len(ICONS) * 2):
@@ -99,26 +99,59 @@ for i in range(len(ICONS) * 2):
 
 print(f"Strip built: {strip_img.size}")
 
+# Create a binary transparency mask from the strip's alpha channel
+# (pixels with alpha < 128 are transparent)
+alpha = strip_img.split()[3]  # alpha channel
+transparent_mask = alpha.point(lambda x: 255 if x < 128 else 0)
+
+# Convert RGBA strip to RGB (discard alpha) for palette quantization
+strip_rgb = Image.new("RGB", strip_img.size, (0, 0, 0))
+strip_rgb.paste(strip_img, mask=alpha)  # composite with alpha onto black
+
 
 # ── Build a shared colour palette from the full strip ─────────────────────────
-# Quantize the entire strip once → all frames inherit the same palette.
-# This dramatically improves LZW compression because adjacent frames share
-# identical colour indices for unchanged pixels.
 print(f"Quantizing strip to {PALETTE_COLORS}-colour palette...")
-palette_strip = strip_img.quantize(
+palette_strip = strip_rgb.quantize(
     colors=PALETTE_COLORS,
     method=Image.Quantize.FASTOCTREE,
     dither=Image.Dither.NONE,
 )
-# Extract palette for re-use
 shared_palette = palette_strip.getpalette()
-# Ensure transparent pixels map to index 0 (required for GIF transparency)
-# FASTOCTREE usually does this automatically for RGBA with transparent pixels.
+
+# Detect which palette index maps to transparency.
+# The gap between icons (e.g. in the middle of the first gap) is transparent.
+gap_x = ICON_SIZE + GAP // 2   # middle of first gap between icon 0 and 1
+gap_y = VIEWPORT_H // 2
+transparent_idx = palette_strip.getpixel((gap_x, gap_y))
+print(f"Transparency index: {transparent_idx} (gap at x={gap_x}, y={gap_y})")
+if shared_palette:
+    tc = shared_palette[transparent_idx*3:transparent_idx*3+3]
+    print(f"Transparency color: RGB({tc[0]}, {tc[1]}, {tc[2]})")
 print(f"Palette mode: {palette_strip.mode}, palette entries: {len(shared_palette) // 3}")
 
+# Apply the transparency mask: wherever the original alpha was transparent,
+# force those pixels to the transparency index in the quantized strip.
+palette_strip.putpixel = lambda: None  # prevent direct modification
+# Instead, convert to a writable copy
+pal_pixels = palette_strip.load()
+mask_pixels = transparent_mask.load()
+# Create a writable copy of the palette image
+palette_fixed = Image.new("P", palette_strip.size)
+palette_fixed.putpalette(shared_palette)
+for y in range(palette_strip.height):
+    for x in range(palette_strip.width):
+        if mask_pixels[x, y] == 255:  # transparent in original
+            palette_fixed.putpixel((x, y), transparent_idx)
+        else:
+            palette_fixed.putpixel((x, y), pal_pixels[x, y])
 
-# ── Generate frames by cropping from the pre-quantized strip ──────────────────
-num_frames = STRIP_W // FRAME_STEP                 # 840 / 2 = 420
+print(f"Transparency mask applied to {palette_strip.width}x{palette_strip.height} strip")
+
+
+# ── Generate frames from the fixed palette strip ──────────────────────────────
+# Each frame is simply cropped from the pre-processed P-mode strip with correct
+# transparency. This avoids per-frame quantization.
+num_frames = STRIP_W // FRAME_STEP
 frames: list[Image.Image] = []
 
 print(f"Generating {num_frames} frames (step={FRAME_STEP}px, "
@@ -126,8 +159,7 @@ print(f"Generating {num_frames} frames (step={FRAME_STEP}px, "
 
 for fi in range(num_frames):
     x = fi * FRAME_STEP
-    crop = palette_strip.crop((x, 0, x + VIEWPORT_W, VIEWPORT_H))
-    frames.append(crop)
+    frames.append(palette_fixed.crop((x, 0, x + VIEWPORT_W, VIEWPORT_H)))
 
     if (fi + 1) % 100 == 0:
         print(f"    ... {fi + 1}/{num_frames} frames done")
@@ -146,7 +178,7 @@ frames[0].save(
     loop=0,                           # infinite loop
     optimize=True,                    # LZW + remove duplicates
     disposal=1,                       # "do not dispose" — keep previous frame
-    transparency=0,                   # palette index 0 = transparent
+    transparency=transparent_idx,     # palette index for transparency
 )
 
 size_kb = os.path.getsize(OUTPUT) / 1024
