@@ -30,6 +30,7 @@ ICONS = [
     "react", "nextjs", "ts", "tailwind", "python", "java",
     "nodejs", "docker", "linux", "bash", "git", "githubactions",
     "postgres", "vagrant", "convex", "netlify", "spring", "ansible",
+    "redhat",
 ]
 
 ICON_SIZE = 48             # pixel dimension per icon
