@@ -1,5 +1,8 @@
 <div align="center">
 
+  <!-- --- SEO / SOCIAL PREVIEW --- -->
+  <!-- Lintshiwe Ntoampi - Full-Stack Engineer, Java Spring Boot, TypeScript, Python, DevOps, and Cybersecurity. Building secure scalable systems with Java, Spring Boot, and JavaEE. -->
+
   <!-- --- HEADER --- -->
 
   <p style="font-size: 2.8rem; font-weight: 600; letter-spacing: -0.5px; color: #f0f4f8; margin-bottom: 10px;">
@@ -9,13 +12,13 @@
   <p style="font-size: 0.95rem; color: #8b949e; letter-spacing: 1.5px; text-transform: uppercase;">
     Full-Stack Engineer
     <span style="display: inline-block; width: 3px; height: 3px; background: #8b949e; border-radius: 50%; margin: 0 10px; vertical-align: middle; opacity: 0.5;"></span>
-    UI Architect
+    Java Spring Boot Developer
     <span style="display: inline-block; width: 3px; height: 3px; background: #8b949e; border-radius: 50%; margin: 0 10px; vertical-align: middle; opacity: 0.5;"></span>
-    Security Learner
+    SOC Analyst
   </p>
 
-  <p style="max-width: 480px; margin: 20px auto 0; color: #6e7681; font-size: 0.92rem; line-height: 1.7;">
-    Designing resilient full-stack experiences where cinematic design systems, automation, and privacy-first thinking converge.
+  <p style="max-width: 520px; margin: 20px auto 0; color: #6e7681; font-size: 0.92rem; line-height: 1.7;">
+    Java and Spring Boot engineer building secure full stack systems. Final year CS student, SOC intern, and open source contributor. DevOps, Linux, and cybersecurity backed by real projects in network forensics, face recognition, and scalable Java platforms. Pretoria, South Africa.
   </p>
 
   <br/>
