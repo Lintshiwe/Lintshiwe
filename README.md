@@ -5,17 +5,67 @@
 
   <!-- --- HEADER --- -->
 
-  <h1 style="font-size: 2.8rem; font-weight: 600; letter-spacing: -0.5px; color: #f0f4f8; margin-bottom: 10px; margin-top: 0; border: none; padding: 0;">
+  <!-- Hidden semantic headings for SEO / accessibility -->
+  <h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">
     Lintshiwe Ntoampi
   </h1>
-
-  <h2 style="font-size: 0.95rem; color: #8b949e; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 400; margin: 0; border: none; padding: 0;">
-    Full-Stack Engineer
-    <span style="display: inline-block; width: 3px; height: 3px; background: #8b949e; border-radius: 50%; margin: 0 10px; vertical-align: middle; opacity: 0.5;"></span>
-    Java Spring Boot Developer
-    <span style="display: inline-block; width: 3px; height: 3px; background: #8b949e; border-radius: 50%; margin: 0 10px; vertical-align: middle; opacity: 0.5;"></span>
-    SOC Analyst
+  <h2 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">
+    Full-Stack Engineer - Java Spring Boot Developer - SOC Analyst
   </h2>
+
+  <!-- Animated terminal/matrix header -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 140" width="100%" style="max-width: 680px; display: block; margin: 0 auto; border-radius: 10px;">
+    <!-- Subtle border accent (no background fill) -->
+    <rect width="680" height="140" rx="10" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.08"/>
+
+    <!-- Floating binary data streams -->
+    <g fill="#00ff41" font-family="monospace" font-size="9" opacity="0.06">
+      <text x="25" y="20">01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100</text>
+      <text x="25" y="130">01010111 01100101 01101100 01100011 01101111 01101101 01100101 00100000 01110100 01101111 00100000 01101101 01111001 00100000 01110000 01110010 01101111 01100110 01101001 01101100 01100101</text>
+      <text x="420" y="20">01001100 01101001 01101110 01110100 01110011 01101000 01101001 01110111 01100101</text>
+      <text x="480" y="130">01000010 01110101 01101001 01101100 01100100 01100101 01110010</text>
+    </g>
+
+    <!-- Terminal prompt line -->
+    <text x="340" y="32" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="11" opacity="0.35">
+      lintshiwe@github:~$
+    </text>
+
+    <!-- Name glow layer -->
+    <text x="340" y="72" text-anchor="middle" fill="#00ff41" font-family="'Courier New',monospace" font-size="32" font-weight="bold" opacity="0.15">
+      Lintshiwe Ntoampi
+    </text>
+
+    <!-- Name solid layer with subtle pulse -->
+    <text x="340" y="72" text-anchor="middle" fill="#00ff41" font-family="'Courier New',monospace" font-size="32" font-weight="bold">
+      Lintshiwe Ntoampi
+      <animate attributeName="opacity" values="1;0.9;1;0.95;1;0.85;1" dur="5s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Glitch overlay layer -->
+    <text x="341" y="71" text-anchor="middle" fill="#ff00ff" font-family="'Courier New',monospace" font-size="32" font-weight="bold" opacity="0">
+      Lintshiwe Ntoampi
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.08;0;0;0.04;0;0;0;0;0;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="340;342;338;340" dur="6s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Blinking cursor -->
+    <text x="530" y="72" fill="#00ff41" font-family="monospace" font-size="32" font-weight="bold">
+      _
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Terminal subtitle -->
+    <text x="340" y="102" text-anchor="middle" fill="#00cc33" font-family="monospace" font-size="12" opacity="0.5">
+      &gt; Java Spring Boot Developer  |  SOC Analyst  |  Full-Stack Engineer
+    </text>
+
+    <!-- Scan line effect -->
+    <rect x="0" y="0" width="680" height="2" fill="#00ff41" opacity="0">
+      <animate attributeName="y" values="-2;142" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;0;0;0.04;0;0;0;0;0;0;0;0;0;0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </svg>
 
   <p style="max-width: 520px; margin: 20px auto 0; color: #6e7681; font-size: 0.92rem; line-height: 1.7;">
     Java and Spring Boot engineer building secure full stack systems. Final year CS student, SOC intern, and open source contributor. DevOps, Linux, and cybersecurity backed by real projects in network forensics, face recognition, and scalable Java platforms. Pretoria, South Africa.
