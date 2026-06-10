@@ -80,20 +80,20 @@ $ ./stats.sh --profile=Lintshiwe
           # Core Languages
         </p>
         <p style="text-align: center; margin: 0 0 6px 0;">
-          <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=0d1117" alt="Java" />
-          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=0d1117" alt="JavaScript" />
-          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0d1117" alt="TypeScript" />
-          <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white&labelColor=0d1117" alt="Ruby" />
+          <img src="https://skillicons.dev/icons?i=java" width="40" height="40" alt="Java" style="border-radius: 8px; border: 1px solid #1a3a1a; padding: 6px; background: transparent; margin: 3px;" />
+          <img src="https://skillicons.dev/icons?i=js" width="40" height="40" alt="JavaScript" style="border-radius: 8px; border: 1px solid #1a3a1a; padding: 6px; background: transparent; margin: 3px;" />
+          <img src="https://skillicons.dev/icons?i=ts" width="40" height="40" alt="TypeScript" style="border-radius: 8px; border: 1px solid #1a3a1a; padding: 6px; background: transparent; margin: 3px;" />
+          <img src="https://skillicons.dev/icons?i=ruby" width="40" height="40" alt="Ruby" style="border-radius: 8px; border: 1px solid #1a3a1a; padding: 6px; background: transparent; margin: 3px;" />
         </p>
         <br/>
         <p style="font-size: 0.7rem; color: #00cc33; font-family: monospace; margin-bottom: 10px; text-align: left; letter-spacing: 0.5px;">
           # Automation &amp; Tooling
         </p>
         <p style="text-align: center; margin: 0;">
-          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117" alt="Python" />
-          <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=0d1117" alt="Bash" />
-          <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0d1117" alt="Docker" />
-          <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white&labelColor=0d1117" alt="Ansible" />
+          <img src="https://skillicons.dev/icons?i=python" width="40" height="40" alt="Python" style="border-radius: 8px; border: 1px solid #1a3a1a; padding: 6px; background: transparent; margin: 3px;" />
+          <img src="https://skillicons.dev/icons?i=bash" width="40" height="40" alt="Bash" style="border-radius: 8px; border: 1px solid #1a3a1a; padding: 6px; background: transparent; margin: 3px;" />
+          <img src="https://skillicons.dev/icons?i=docker" width="40" height="40" alt="Docker" style="border-radius: 8px; border: 1px solid #1a3a1a; padding: 6px; background: transparent; margin: 3px;" />
+          <img src="https://skillicons.dev/icons?i=ansible" width="40" height="40" alt="Ansible" style="border-radius: 8px; border: 1px solid #1a3a1a; padding: 6px; background: transparent; margin: 3px;" />
         </p>
       </td>
     </tr>
